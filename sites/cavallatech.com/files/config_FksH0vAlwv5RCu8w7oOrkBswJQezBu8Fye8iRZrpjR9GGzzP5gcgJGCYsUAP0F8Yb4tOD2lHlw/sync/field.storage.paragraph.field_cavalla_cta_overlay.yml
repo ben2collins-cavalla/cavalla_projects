@@ -1,0 +1,20 @@
+uuid: c5219863-c9c7-4512-b086-1fea9ba14f3c
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: ribTMo1ktb4kPgWb7x45-l_fd1WEgkdRC6Mm74baoDM
+id: paragraph.field_cavalla_cta_overlay
+field_name: field_cavalla_cta_overlay
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

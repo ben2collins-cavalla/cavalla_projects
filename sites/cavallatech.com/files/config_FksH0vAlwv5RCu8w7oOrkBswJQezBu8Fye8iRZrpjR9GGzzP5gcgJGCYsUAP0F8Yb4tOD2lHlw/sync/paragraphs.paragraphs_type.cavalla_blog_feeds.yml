@@ -1,0 +1,12 @@
+uuid: 50f342d3-fc83-4196-811b-862ef15f31ec
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Y0U4IjfFT5SmlOXFDHb9VLDqCmc1Au4ghwKDQOjP1xM
+id: cavalla_blog_feeds
+label: 'Blog Feeds'
+icon_uuid: null
+icon_default: null
+description: "Use the Cavalla Blog Feed to display a list of Cavalla Blogs organized by either category or tag.\t\r\n"
+behavior_plugins: {  }

@@ -1,0 +1,12 @@
+uuid: 8f6caf55-7dd9-4513-8095-708eaed6cf76
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 79G7Cl6burzFpjl0X1JVHR0MXhJyzzdw3atz8t_i2YM
+id: cavalla_card_introduction
+label: 'Cavalla Cards - Introduction Section'
+icon_uuid: null
+icon_default: null
+description: 'The Title and subtext used within the Cavalla Cards Bundle'
+behavior_plugins: {  }

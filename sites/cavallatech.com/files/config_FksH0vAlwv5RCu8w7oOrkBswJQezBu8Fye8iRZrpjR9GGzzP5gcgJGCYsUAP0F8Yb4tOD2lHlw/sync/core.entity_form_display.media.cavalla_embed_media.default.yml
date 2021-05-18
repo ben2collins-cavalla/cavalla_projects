@@ -1,0 +1,56 @@
+uuid: a4d334e6-a05b-465a-9ab7-2ef8a5c373a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.cavalla_embed_media.field_media_oembed_video_1
+    - media.type.cavalla_embed_media
+  module:
+    - media
+    - path
+_core:
+  default_config_hash: k1JPFoyG5bwCkxlpGG9gc29ARlwE4O7pZUt4SmSN8Uw
+id: media.cavalla_embed_media.default
+targetEntityType: media
+bundle: cavalla_embed_media
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_media_oembed_video_1:
+    type: oembed_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 100
+    region: content
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+hidden:
+  name: true

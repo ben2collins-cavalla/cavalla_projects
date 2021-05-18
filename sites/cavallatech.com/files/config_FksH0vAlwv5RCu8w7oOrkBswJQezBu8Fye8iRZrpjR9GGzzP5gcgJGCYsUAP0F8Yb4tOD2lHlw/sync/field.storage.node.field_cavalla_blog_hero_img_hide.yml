@@ -1,0 +1,20 @@
+uuid: 33b6c88b-b06c-4ef4-af9f-9a684dd357e4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: y8cIQdsShe2MvfxCB1BnrSXw3aWMSmclZvJPnxEGWOw
+id: node.field_cavalla_blog_hero_img_hide
+field_name: field_cavalla_blog_hero_img_hide
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

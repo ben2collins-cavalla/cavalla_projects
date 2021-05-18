@@ -1,0 +1,14 @@
+uuid: 538496ae-38f6-4d58-a592-6e0493c54c0d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: _39pTuhsbFWR-8nRFPV1EQvGNJdSj8S5bpdT5P9oblU
+id: default_product_no_variation
+label: 'Default Product - No Variation'
+description: ''
+variationType: default_products_no_variation
+multipleVariations: false
+injectVariationFields: true
+traits: {  }
+locked: false

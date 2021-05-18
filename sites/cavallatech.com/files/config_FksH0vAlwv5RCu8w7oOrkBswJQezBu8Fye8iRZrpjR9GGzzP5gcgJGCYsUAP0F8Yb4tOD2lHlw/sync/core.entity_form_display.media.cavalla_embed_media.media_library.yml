@@ -1,0 +1,29 @@
+uuid: 23bab939-ec27-485c-a6ac-a6a28b10a4f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.cavalla_embed_media.field_media_oembed_video_1
+    - media.type.cavalla_embed_media
+_core:
+  default_config_hash: FLjePfv7cAZ4FYLLbZ9Acr8Y2w21L54IfyRYM5QpvkM
+id: media.cavalla_embed_media.media_library
+targetEntityType: media
+bundle: cavalla_embed_media
+mode: media_library
+content:
+  name:
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    weight: 0
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  field_media_oembed_video_1: true
+  path: true
+  status: true
+  uid: true

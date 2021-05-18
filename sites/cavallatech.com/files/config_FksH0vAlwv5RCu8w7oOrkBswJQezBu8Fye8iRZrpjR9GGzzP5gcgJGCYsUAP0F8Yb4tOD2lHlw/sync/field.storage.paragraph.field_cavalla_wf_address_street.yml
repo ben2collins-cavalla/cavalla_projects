@@ -1,0 +1,23 @@
+uuid: 1cb0e9f7-c541-42ac-8d0b-bdf5163067b4
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: u1NdKuxQmKVAQYzoadS2j-u1Rg6Ccb6jmNaiBzsJV40
+id: paragraph.field_cavalla_wf_address_street
+field_name: field_cavalla_wf_address_street
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

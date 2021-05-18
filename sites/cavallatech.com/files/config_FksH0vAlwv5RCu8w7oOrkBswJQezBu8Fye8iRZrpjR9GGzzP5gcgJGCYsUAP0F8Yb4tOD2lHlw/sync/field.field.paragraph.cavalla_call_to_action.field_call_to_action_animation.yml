@@ -1,0 +1,25 @@
+uuid: 78a3d3ec-c2d2-4f31-9821-e319a3bbb875
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_call_to_action_animation
+    - paragraphs.paragraphs_type.cavalla_call_to_action
+_core:
+  default_config_hash: 3B0-h89mEymKR4EufNXb5K1DdoD5TH4huRW2GKSNTtM
+id: paragraph.cavalla_call_to_action.field_call_to_action_animation
+field_name: field_call_to_action_animation
+entity_type: paragraph
+bundle: cavalla_call_to_action
+label: 'Text Animation'
+description: "Select this checkbox to activate the widget's animation. \r\nAnimation will active as soon as the section is within your \r\ncomputer screen's viewport."
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

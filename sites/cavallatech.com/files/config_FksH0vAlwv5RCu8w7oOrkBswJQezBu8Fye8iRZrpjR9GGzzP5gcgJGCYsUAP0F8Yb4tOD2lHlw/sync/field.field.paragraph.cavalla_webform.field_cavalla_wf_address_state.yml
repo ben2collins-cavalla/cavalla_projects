@@ -1,0 +1,23 @@
+uuid: 1676be8d-9600-4c81-aebc-abafe1b52749
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cavalla_wf_address_state
+    - paragraphs.paragraphs_type.cavalla_webform
+  module:
+    - options
+_core:
+  default_config_hash: VVzrWvHCpa1AEP3K8pollZWY650TK1DChEzh-wB8nw4
+id: paragraph.cavalla_webform.field_cavalla_wf_address_state
+field_name: field_cavalla_wf_address_state
+entity_type: paragraph
+bundle: cavalla_webform
+label: State
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

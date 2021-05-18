@@ -1,0 +1,12 @@
+uuid: 3ece82ac-f01d-4628-ac79-03f200664847
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vzuiXWBrkxOvcPJr-vB63K_uPX0W9ipequScFyWoics
+id: cavalla_featurette
+label: Featurette
+icon_uuid: null
+icon_default: null
+description: 'Provides a paragraphs bundle for adding a Bootstrap Featurette section.'
+behavior_plugins: {  }

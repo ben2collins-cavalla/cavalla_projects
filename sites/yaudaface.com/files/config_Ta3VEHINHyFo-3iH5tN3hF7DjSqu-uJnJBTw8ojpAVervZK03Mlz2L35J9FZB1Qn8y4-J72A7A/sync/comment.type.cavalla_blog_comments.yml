@@ -1,0 +1,10 @@
+uuid: 572764c0-6009-42b9-a574-edb49cca61c2
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: xQcM0tMZEMeGWdXS9FKuJThMzkZBJEOnjDOZyyEhKhg
+id: cavalla_blog_comments
+label: 'Cavalla Blog Comments'
+target_entity_type_id: node
+description: 'A Comments section used for Cavalla Blog content types'

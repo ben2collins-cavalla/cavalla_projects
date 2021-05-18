@@ -1,0 +1,90 @@
+uuid: d27237c1-294d-4822-8343-d399ef4a48f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.cavalla_homepage.field_cavalla_bp_introduction
+    - field.field.node.cavalla_homepage.field_cavalla_hp_employment
+    - field.field.node.cavalla_homepage.field_cavalla_hp_project_embed
+    - field.field.node.cavalla_homepage.field_cavalla_hp_project_feed
+    - field.field.node.cavalla_homepage.field_cavalla_hp_skillsets
+    - field.field.node.cavalla_homepage.field_cavalla_hp_testimony
+    - field.field.node.cavalla_homepage.field_cavalla_hp_widget_contact
+    - field.field.node.cavalla_homepage.field_cavalla_hp_widget_intro
+    - node.type.cavalla_homepage
+  module:
+    - entity_reference_revisions
+    - user
+id: node.cavalla_homepage.default
+targetEntityType: node
+bundle: cavalla_homepage
+mode: default
+content:
+  field_cavalla_bp_introduction:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_cavalla_hp_employment:
+    type: entity_reference_revisions_entity_view
+    weight: 5
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_cavalla_hp_project_embed:
+    type: entity_reference_revisions_entity_view
+    weight: 8
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_cavalla_hp_project_feed:
+    type: entity_reference_revisions_entity_view
+    weight: 7
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_cavalla_hp_skillsets:
+    type: entity_reference_revisions_entity_view
+    weight: 6
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_cavalla_hp_widget_contact:
+    type: entity_reference_revisions_entity_view
+    weight: 2
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_cavalla_hp_widget_intro:
+    type: entity_reference_revisions_entity_view
+    weight: 3
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_cavalla_hp_testimony: true

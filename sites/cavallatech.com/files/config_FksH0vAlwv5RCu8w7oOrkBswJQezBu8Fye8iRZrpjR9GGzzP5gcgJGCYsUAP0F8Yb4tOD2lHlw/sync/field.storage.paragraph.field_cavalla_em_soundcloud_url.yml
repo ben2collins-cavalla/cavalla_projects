@@ -1,0 +1,23 @@
+uuid: a4876082-7402-4383-8634-897dff1397a6
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: IoD291UoacB6_piid0ndk1aPSchp79rv7r7ilbZggmY
+id: paragraph.field_cavalla_em_soundcloud_url
+field_name: field_cavalla_em_soundcloud_url
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

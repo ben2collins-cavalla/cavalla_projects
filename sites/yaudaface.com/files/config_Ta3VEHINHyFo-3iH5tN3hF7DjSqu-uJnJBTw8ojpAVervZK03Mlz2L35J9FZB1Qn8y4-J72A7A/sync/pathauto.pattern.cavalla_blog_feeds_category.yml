@@ -1,0 +1,25 @@
+uuid: 16253e86-f5ce-4f67-a05f-215084b189da
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+_core:
+  default_config_hash: tcHD-8EV0g4cpKluxOBJpa3leBlNiDIqxlfRpN6BVI4
+id: cavalla_blog_feeds_category
+label: 'Article Categories'
+type: 'canonical_entities:taxonomy_term'
+pattern: '/category/[term:name]'
+selection_criteria:
+  2e80cd50-c339-42ce-9756-3b0f69d315fe:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      cavalla_blog_category: cavalla_blog_category
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 2e80cd50-c339-42ce-9756-3b0f69d315fe
+selection_logic: and
+weight: -5
+relationships: {  }

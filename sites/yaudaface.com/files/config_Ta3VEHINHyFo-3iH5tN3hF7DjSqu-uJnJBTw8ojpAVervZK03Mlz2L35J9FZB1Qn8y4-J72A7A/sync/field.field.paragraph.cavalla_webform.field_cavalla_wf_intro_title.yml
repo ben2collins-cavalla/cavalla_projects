@@ -1,0 +1,21 @@
+uuid: 826567d4-25dd-4052-85a1-0726a2fe9de2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cavalla_wf_intro_title
+    - paragraphs.paragraphs_type.cavalla_webform
+_core:
+  default_config_hash: S_IgoEN8mVD_-UM71FO09QJv-1gYqhBPXTWisYD61kg
+id: paragraph.cavalla_webform.field_cavalla_wf_intro_title
+field_name: field_cavalla_wf_intro_title
+entity_type: paragraph
+bundle: cavalla_webform
+label: Header
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

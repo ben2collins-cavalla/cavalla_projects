@@ -1,0 +1,27 @@
+uuid: 547ff8ea-8225-4ded-b408-ecc2a7c1615d
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.cavalla_blog_comments
+    - field.field.comment.cavalla_blog_comments.field_cavalla_blog_comments_body
+_core:
+  default_config_hash: MVRVdL2EFfHJONkkgZKLl1_Xcc9R3UJFr0fKFS7Xv3o
+id: comment.cavalla_blog_comments.default
+targetEntityType: comment
+bundle: cavalla_blog_comments
+mode: default
+content:
+  field_cavalla_blog_comments_body:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

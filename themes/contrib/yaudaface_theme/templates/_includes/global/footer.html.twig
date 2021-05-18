@@ -1,0 +1,77 @@
+<footer class="page-footer navbar-dark bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-12">
+        {% if address_organization_name %}
+        <h1>{{ address_organization_name }}</h1>
+        {% endif %}
+        <address class="page_footer_address">
+          <ul class="mb-0 p-0">
+            {% if address_street %}
+            <li>{{ address_street }}</li>
+            {% endif %}
+            {% if address_city_state_zipcode %}
+            <li>{{ address_city_state_zipcode }}</li>
+            {% endif %}
+          </ul>
+        </address>
+        <div class="page_footer_contact">
+          <ul class="mb-0 p-0">
+            {% if address_phone %}
+            <li>{{ address_phone }}</li>
+            {% endif %}
+
+            {% if address_email %}
+            <li>{{ address_email }}</li>
+            {% endif %}
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-8 col-12">
+        {% if page.footer_second %}
+        <div class="col">
+          {{ page.footer_first}}
+        </div>
+        {% endif %}
+
+        {% if page.footer_second %}
+        <div class="col">
+          {{ page.footer_second}}
+        </div>
+        {% endif %}
+
+
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      <div class="row">
+        <div class="copyright col-8"> ©2020 Copyright YaudaFace. All Rights Resevered</div>
+          <div class="social-links col-4">
+            {% if facebook_link %}
+            <a href="{{ facebook_link }}" class="fa fa-facebook" target="_blank"></a>
+            {% endif %}
+
+            {% if twitter_link %}
+            <a href="{{ twitter_link }}" class="fa fa-twitter" target="_blank"></a>
+            {% endif %}
+
+            {% if instagram_link %}
+            <a href="{{ instagram_link }}" class="fa fa-instagram" target="_blank"></a>
+            {% endif %}
+
+            {% if linkedin_link %}
+            <a href="{{ linkedin_link }}" class="fa fa-linkedin" target="_blank"></a>
+            {% endif %}
+
+            {% if youtube_link %}
+            <a href="{{ youtube_link }}" class="fa fa-youtube" target="_blank"></a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

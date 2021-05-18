@@ -1,0 +1,12 @@
+uuid: 3543cf02-ee1c-4626-95d6-2514f008363f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: B7oUIiPd-EnAeYlPe2uzSiOIcyq-6Ujg0FSErSssOq8
+id: cavalla_call_to_action
+label: 'Call to Action'
+icon_uuid: null
+icon_default: null
+description: "A full background Call to Action section that uses either images and videos.\t\r\n"
+behavior_plugins: {  }

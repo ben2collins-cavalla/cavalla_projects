@@ -1,0 +1,122 @@
+<?php
+use Drupal\media\Entity\Media;
+use \Drupal\commerce_order\Entity\Order;
+use Drupal\commerce_price\Entity\Currency;
+
+
+/**
+ * @file
+ * yaudaface_theme file.
+ */
+
+
+
+
+/**
+ * Implements hook_preprocessor().
+ * Lets us define our node templates in this module.
+ */
+
+function yaudaface_theme_preprocess_page(array &$variables) {
+
+
+}
+
+function yaudaface_theme_preprocess_paragraph(&$variables) {
+    $variables['base_url_node']= getBaseUrl();
+    $variables['logo'] = getBaseUrl().'themes/contrib/yaudaface_theme/build/image/logo.svg';
+}
+
+function yaudaface_theme_preprocess_paragraph__call_to_action_hp(&$variables) {
+
+  $paragraph = $variables['elements']['#paragraph'];
+
+  if ($paragraph->get('field_cavalla_call_to_action_vw')->value == '1') {
+      $half_view_display = 'half_view ';
+  }
+
+  if ($paragraph->get('field_cavalla_cta_overlay')->value == '1') {
+      $overlay = 'overlay ';
+  }
+
+  $variables['cta_logo'] = $paragraph->get('field_cavalla_cta_logo')->value;
+  $variables['attributes']['class'] = 'call_to_action_bundle call_to_action_hp_bundle light-theme' . $overlay . $half_view_display;
+
+
+  $video= $paragraph->get('field_call_to_action_media')->getValue();
+  $entity = Media::load($video[0]['target_id']);
+  $variables['bundle'] = $entity->bundle();
+  $url = $entity->field_media_oembed_video->value;
+  $source = $entity->getSource();
+  $provider = $source->getMetadata($entity, 'provider_name');
+  $variables['provider'] = $provider;
+  if ($provider == "YouTube"){
+      $url =  strstr( $url, 'v=' );
+      $id = str_replace("v=", "", $url);
+      $variables['url']='https://www.youtube.com/embed/'. $id .'?autoplay=1&mute=1&loop=1&controls=0&modestbranding=1&preload=1&showinfo=0&playlist='.$id;
+      $variables['id'] = $id;
+  }
+  if ($provider == "Vimeo"){
+      $id = str_replace('https://vimeo.com/', "", $url );
+      $variables['url'] = '//player.vimeo.com/video/'.$id.'?background=1&autoplay=1&preload=1&muted=1&controls=0&loop=1&byline=0&title=0';
+  }
+ // $order = Order::load(6);
+//  $variables['order_items']= _order_Items($order);
+ // dpm( db_query(" SELECT MAX(order_id) as `order_id` FROM  `commerce_order` ")->fetchCol());
+
+}
+
+function yaudaface_theme_preprocess_paragraph__cavalla_featurette(&$variables) {
+  $paragraph = $variables['elements']['#paragraph'];
+
+  $image= $paragraph->get('field_featurette_media')->getValue();
+
+  $entity = Media::load($image[0]['target_id']);
+  if ($entity->field_media_image->entity != NULL){
+      $image_uri = $entity->field_media_image->entity->getFileUri();
+  }
+    $variables['image_url'] = file_create_url($image_uri);
+
+
+}
+
+function yaudaface_theme_preprocess_views_view__cavalla_product_feed(&$variables) {
+  $view = $variables['view'];
+  if ($view->current_display == 'product_feed'){
+      $variables['attributes']['class'] = "card-deck my-4";
+  }
+}
+
+function yaudaface_theme_preprocess_views_view_unformatted__cavalla_product_feed(&$variables) {
+  $variables['attributes']['class'] = "card";
+}
+
+function yaudaface_theme_preprocess_status_messages(&$variables){
+  $variables['attributes']['class'] = 'alert alert-success container';
+}
+
+function yaudaface_theme_preprocess_swiftmailer(&$variables) {
+  $variables['base_url']= getBaseUrl();
+  $next_order_id = db_query(" SELECT MAX(order_id) as `order_id` FROM  `commerce_order` ")->fetchCol();
+  $order = Order::load( $next_order_id + 1 );
+
+  $variables['subTotalPrice'] = $order->getSubtotalPrice();
+  $variables['TotalPrice'] = $order->getTotalPrice();
+  $variables['address_addressLine1'] = $order->getBillingProfile()->address->address_line1;
+  $variables['address_addressLine2'] = $order->getBillingProfile()->address->address_line2;
+  $variables['address_city'] = $order->getBillingProfile()->address->locality;
+  $variables['address_state'] = $order->getBillingProfile()->address->administrative_area;
+  $variables['address_zipcode'] = $order->getBillingProfile()->address->postal_code;
+  $variables['name'] = $order->getBillingProfile()->address->given_name ." ". $order->getBillingProfile()->address->family_name;
+  $variables['order_items']= _order_Items($order);
+}
+
+function _order_Items($order){
+  $arr=[];
+  foreach($order->getItems() as $key => $orders){
+    $arr[$key]['order_Titles'] = $orders->getTitle();
+    $arr[$key]['order_getQuantity'] = floor($orders->getQuantity());
+    $arr[$key]['getTotalPrice'] = $orders->getTotalPrice();
+  }
+  return $arr;
+}

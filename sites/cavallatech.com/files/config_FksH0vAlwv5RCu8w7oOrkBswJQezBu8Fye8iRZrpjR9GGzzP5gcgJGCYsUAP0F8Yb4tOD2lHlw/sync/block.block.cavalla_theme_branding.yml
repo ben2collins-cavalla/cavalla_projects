@@ -1,0 +1,25 @@
+uuid: 66e35e17-42db-4de8-b1d1-bb220ad6b7c2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cavalla_theme
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: cavalla_theme_branding
+theme: cavalla_theme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 1d30c126-a777-44a9-b0cd-e11b9ad5841a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - viewfield
+    - views
+_core:
+  default_config_hash: vOvePrXI77fLq1k9on4IIpXsvWlczSD6I97qHsrvv1s
+id: node.field_cavalla_blog_comments_feed
+field_name: field_cavalla_blog_comments_feed
+entity_type: node
+type: viewfield
+settings:
+  target_type: view
+module: viewfield
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

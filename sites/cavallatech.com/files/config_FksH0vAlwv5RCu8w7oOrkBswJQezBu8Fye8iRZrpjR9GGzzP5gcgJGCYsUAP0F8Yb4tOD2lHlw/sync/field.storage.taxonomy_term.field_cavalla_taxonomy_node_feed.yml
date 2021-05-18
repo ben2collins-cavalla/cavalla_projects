@@ -1,0 +1,23 @@
+uuid: 8b67b20d-5607-4a11-b3ca-12678e22122a
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - paragraphs
+    - taxonomy
+_core:
+  default_config_hash: BUKcUcylUrp7Q6fPg2ae7skNLa6lLYYbPKDu4hEXqr0
+id: taxonomy_term.field_cavalla_taxonomy_node_feed
+field_name: field_cavalla_taxonomy_node_feed
+entity_type: taxonomy_term
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: 542aa823-8358-49ca-a785-1e52f5a4124e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+_core:
+  default_config_hash: uKVxR1_9iuCfCRs_rbLryAQscSQBnK_EZQhWAX_bg9A
+id: node.field_cavalla_blog_category
+field_name: field_cavalla_blog_category
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

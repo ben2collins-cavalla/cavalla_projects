@@ -1,0 +1,33 @@
+name: Cavalla Tech
+type: theme
+description: 'Custom theme for cavallatech.com'
+package: Core
+# version: VERSION
+# core: 8.x
+libraries:
+  - cavallatech_theme/global-styling
+
+base theme: cavalla_theme
+regions:
+  cart: 'cart'
+  primary_menu: 'Primary menu'
+  checkout_progress: 'Checkout Progress'
+  header: 'Header'
+  secondary_menu: 'Secondary menu'
+  admin_actions : 'Admin Actions'
+  help: 'Help'
+  alerts: 'Alerts'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  footer_third: 'Footer third'
+  footer_fourth: 'Footer fourth'
+
+
+
+# Information added by Drupal.org packaging script on 2018-10-02
+version: '1.1'
+core: '8.x'
+project: 'drupal'

@@ -1,0 +1,10 @@
+uuid: 4d16d045-aeea-4084-96ff-20a7bbfdc5d6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: T-N_etB6MfqTcC4s3350Pwzj-4WvZXt93XG5FBJRo8k
+name: 'Commerce Categories'
+vid: cavalla_commerce
+description: 'Products/ Merchandise related categories.'
+weight: -7

@@ -1,0 +1,30 @@
+uuid: 7a8a7965-22b6-4198-acfa-c45ee8d9200f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cavalla_feature_blog_post
+    - node.type.cavalla_blog
+    - paragraphs.paragraphs_type.cavalla_feature_blog_post
+_core:
+  default_config_hash: eD70vuWjdoOIlqK1zbCwNqmZpoCcqM4btOENwxXIgzM
+id: paragraph.cavalla_feature_blog_post.field_cavalla_feature_blog_post
+field_name: field_cavalla_feature_blog_post
+entity_type: paragraph
+bundle: cavalla_feature_blog_post
+label: 'Feature Blog Post'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      cavalla_blog: cavalla_blog
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

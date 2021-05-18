@@ -1,0 +1,23 @@
+uuid: 5ed8dbc1-21a9-46b9-a71a-ed90bdd0cf82
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: 1t_zSZ9mTdRTUx1Q2X3lRlRJFJVtST2w8HJoXAfkOpM
+id: paragraph.field_call_to_action_header
+field_name: field_call_to_action_header
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

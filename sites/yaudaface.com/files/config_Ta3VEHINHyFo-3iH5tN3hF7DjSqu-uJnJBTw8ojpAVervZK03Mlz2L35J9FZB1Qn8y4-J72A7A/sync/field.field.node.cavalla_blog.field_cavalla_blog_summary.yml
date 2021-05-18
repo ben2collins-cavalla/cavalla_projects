@@ -1,0 +1,21 @@
+uuid: 42d59aa5-9b63-4867-818c-9db9864ba6e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cavalla_blog_summary
+    - node.type.cavalla_blog
+_core:
+  default_config_hash: y1T2qOAEiJZ48SNoZ39Jz5L30Ib6uD6_A9SiHIGZ8xE
+id: node.cavalla_blog.field_cavalla_blog_summary
+field_name: field_cavalla_blog_summary
+entity_type: node
+bundle: cavalla_blog
+label: Summary
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

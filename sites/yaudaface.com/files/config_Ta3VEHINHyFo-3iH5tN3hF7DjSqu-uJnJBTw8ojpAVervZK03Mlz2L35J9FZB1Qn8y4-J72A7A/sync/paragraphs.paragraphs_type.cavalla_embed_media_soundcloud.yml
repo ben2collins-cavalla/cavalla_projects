@@ -1,0 +1,12 @@
+uuid: 7048a17a-6d10-41b0-bc7b-f7d991ddf8a9
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: tZZIsUqUkPYKfIX-j2g9quftjo-8hZhjR0_4uL6GZY4
+id: cavalla_embed_media_soundcloud
+label: 'Embed Soundcloud'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

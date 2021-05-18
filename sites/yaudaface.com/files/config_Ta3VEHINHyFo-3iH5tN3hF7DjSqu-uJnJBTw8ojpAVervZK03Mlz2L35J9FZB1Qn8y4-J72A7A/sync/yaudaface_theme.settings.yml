@@ -1,0 +1,19 @@
+features:
+  node_user_picture: 1
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+logo:
+  use_default: 1
+favicon:
+  use_default: 1
+twitter_link: ''
+facebook_link: ''
+youtube_link: ''
+instagram_link: 'https://www.instagram.com/yaudaface/'
+linkedin_link: ''
+address_organization_name: ''
+address_street: ''
+address_city_state_zipcode: ''
+address_phone: ''
+address_email: ''

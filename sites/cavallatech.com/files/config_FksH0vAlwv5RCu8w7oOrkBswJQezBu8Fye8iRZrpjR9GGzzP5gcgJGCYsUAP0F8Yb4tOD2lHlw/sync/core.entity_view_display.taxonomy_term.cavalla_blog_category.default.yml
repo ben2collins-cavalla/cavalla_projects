@@ -1,0 +1,46 @@
+uuid: 7327e6d8-2e2a-4af7-ad6e-e7ded198e2d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.cavalla_blog_category.field_cavalla_taxonomy_hero_img
+    - field.field.taxonomy_term.cavalla_blog_category.field_cavalla_taxonomy_hide_himg
+    - field.field.taxonomy_term.cavalla_blog_category.field_cavalla_taxonomy_node_feed
+    - taxonomy.vocabulary.cavalla_blog_category
+  module:
+    - image
+    - text
+_core:
+  default_config_hash: Y8bWc6Xd2W5epaSLyrdRWLN4R4TKZDIGhmam_DXKDoM
+id: taxonomy_term.cavalla_blog_category.default
+targetEntityType: taxonomy_term
+bundle: cavalla_blog_category
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_cavalla_taxonomy_hero_img:
+    weight: 3
+    label: hidden
+    settings:
+      image_style: ''
+    third_party_settings: {  }
+    type: image_url
+    region: content
+  field_cavalla_taxonomy_hide_himg:
+    weight: 1
+    label: hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+hidden:
+  field_cavalla_taxonomy_node_feed: true

@@ -1,0 +1,9 @@
+uuid: 75c4e9eb-21ef-406e-b8e2-aba613e80038
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c-NGftT4CHjfMDeEpgEkDTG0wq3cduYCbiMdo5O4Ws4
+id: color
+label: Color
+elementType: select

@@ -1,0 +1,21 @@
+uuid: 852a2102-3b6c-4aab-acce-aa79bf3eb8c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cavalla_review_quote
+    - node.type.cavalla_reviews
+_core:
+  default_config_hash: SdsQlBLt9zUZI6vo-pP8HwpLaicAUwp3r74BFiexNhE
+id: node.cavalla_reviews.field_cavalla_review_quote
+field_name: field_cavalla_review_quote
+entity_type: node
+bundle: cavalla_reviews
+label: Quote
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

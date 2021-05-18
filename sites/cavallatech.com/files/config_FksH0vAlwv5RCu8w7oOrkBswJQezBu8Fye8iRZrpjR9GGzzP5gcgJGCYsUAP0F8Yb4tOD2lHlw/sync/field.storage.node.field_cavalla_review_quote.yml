@@ -1,0 +1,21 @@
+uuid: 6d203d61-f33c-41c5-b1a9-d2d2b21df262
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: vcxfPBMdLrw0tZyXR8dk-H9jXf-dN8sfbd909peDcHA
+id: node.field_cavalla_review_quote
+field_name: field_cavalla_review_quote
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

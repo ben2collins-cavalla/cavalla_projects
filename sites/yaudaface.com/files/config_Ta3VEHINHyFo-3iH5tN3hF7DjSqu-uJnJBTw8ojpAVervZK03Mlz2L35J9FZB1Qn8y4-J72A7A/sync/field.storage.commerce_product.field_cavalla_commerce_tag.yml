@@ -1,0 +1,22 @@
+uuid: 6e63e7cf-8e34-4889-b39c-b95ade989e29
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - taxonomy
+_core:
+  default_config_hash: SKkPRVxlYadi833Xkc2QbJ96uVYfsqdZL3fq-HbGaQE
+id: commerce_product.field_cavalla_commerce_tag
+field_name: field_cavalla_commerce_tag
+entity_type: commerce_product
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

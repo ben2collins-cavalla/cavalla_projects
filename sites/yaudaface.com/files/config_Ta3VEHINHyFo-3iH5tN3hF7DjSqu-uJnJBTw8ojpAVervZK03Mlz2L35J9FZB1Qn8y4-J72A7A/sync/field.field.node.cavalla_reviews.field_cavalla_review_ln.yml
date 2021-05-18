@@ -1,0 +1,21 @@
+uuid: ee2d53c3-91ed-4ce9-9bf5-d66d6d1b8a3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cavalla_review_ln
+    - node.type.cavalla_reviews
+_core:
+  default_config_hash: _Altt45LdkZWIJWEqN30YrX4o6fhzf6RbFhyTAKZONA
+id: node.cavalla_reviews.field_cavalla_review_ln
+field_name: field_cavalla_review_ln
+entity_type: node
+bundle: cavalla_reviews
+label: 'Last Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

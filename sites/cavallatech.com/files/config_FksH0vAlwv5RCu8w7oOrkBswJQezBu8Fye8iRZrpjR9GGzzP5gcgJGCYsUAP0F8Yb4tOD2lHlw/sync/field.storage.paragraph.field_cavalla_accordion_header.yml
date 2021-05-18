@@ -1,0 +1,23 @@
+uuid: 08ad6e91-0454-44f9-8135-57ce4c914234
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: GNsX2NatXvcrWN08_N2-_m7IFi9myfMue3b-2OmFTFA
+id: paragraph.field_cavalla_accordion_header
+field_name: field_cavalla_accordion_header
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

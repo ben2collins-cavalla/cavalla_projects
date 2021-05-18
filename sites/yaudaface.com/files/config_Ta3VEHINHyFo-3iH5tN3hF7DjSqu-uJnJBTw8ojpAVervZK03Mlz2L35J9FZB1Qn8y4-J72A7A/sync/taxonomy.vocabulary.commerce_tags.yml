@@ -1,0 +1,10 @@
+uuid: 81cfc43d-3d89-42b5-be43-9417b3c917b3
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: mnp9Iwwz4-glfEu5-iOr10dKHBQCLaUo7DhFOiE07S0
+name: 'Commerce Tags'
+vid: commerce_tags
+description: 'Products/ Merchandise related tags.'
+weight: 0

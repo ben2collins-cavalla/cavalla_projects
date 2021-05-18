@@ -1,0 +1,71 @@
+uuid: fa1fa85c-45d3-4f31-a5b2-fbc5771a89e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cc_product_feed
+    - paragraphs.paragraphs_type.cavalla_commerce_product_feed
+  module:
+    - viewfield
+_core:
+  default_config_hash: Mg5Kta2raV_A0GszJXAdNkXl3iHvJEGa2xOeKIjvceU
+id: paragraph.cavalla_commerce_product_feed.field_cc_product_feed
+field_name: field_cc_product_feed
+entity_type: paragraph
+bundle: cavalla_commerce_product_feed
+label: 'Product Feed'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    token_help: ''
+    display_id: page_1
+    arguments: ''
+    items_to_display: ''
+    target_uuid: cdd1fd9c-1429-41e4-9361-e78ab24fd95b
+default_value_callback: ''
+settings:
+  force_default: true
+  allowed_views:
+    product_brand: product_brand
+    commerce_cart_block: '0'
+    commerce_cart_form: '0'
+    commerce_carts: '0'
+    cavalla_blog_author: '0'
+    cavalla_blog_feeds: '0'
+    cavalla_blog_taxonomy_page: '0'
+    cavalla_commerce_product_attribute: '0'
+    cavalla_photo_album_feed: '0'
+    cavalla_review_feed: '0'
+    commerce_checkout_order_summary: '0'
+    comment: '0'
+    content: '0'
+    block_content: '0'
+    files: '0'
+    frontpage: '0'
+    media: '0'
+    commerce_order_item_table: '0'
+    commerce_orders: '0'
+    user_admin_people: '0'
+    commerce_products: '0'
+    profiles: '0'
+    comments_recent: '0'
+    content_recent: '0'
+    commerce_stores: '0'
+    taxonomy_term: '0'
+    commerce_user_orders: '0'
+    variations: '0'
+    watchdog: '0'
+    webform_submissions: '0'
+    who_s_new: '0'
+    who_s_online: '0'
+  allowed_display_types:
+    block: block
+    page: page
+    embed: '0'
+    feed: '0'
+    default: '0'
+  handler: 'default:view'
+  handler_settings: {  }
+field_type: viewfield

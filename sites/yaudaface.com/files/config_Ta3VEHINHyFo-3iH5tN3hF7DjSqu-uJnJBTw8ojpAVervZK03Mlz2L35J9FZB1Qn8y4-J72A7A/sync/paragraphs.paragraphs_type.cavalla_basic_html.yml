@@ -1,0 +1,12 @@
+uuid: d9d69864-4b6e-4dd5-8a40-b83c089080df
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: h80oywEsulUXnxOSJUhQSzdrQlpElhrUG2q9OHzeNB8
+id: cavalla_basic_html
+label: 'Basic HTML'
+icon_uuid: null
+icon_default: null
+description: 'Use Cavalla Basic HTML to create custom HTML, embed iframes or create plain text.'
+behavior_plugins: {  }

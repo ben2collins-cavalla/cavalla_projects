@@ -1,0 +1,21 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      build/css/style.css : {}
+      build/css/base.css : {}
+      build/fonts/fonts.css : {}
+homepage:
+  version: VERSION
+  css:
+    theme:
+      build/css/homepage.css : {}
+  js:
+    build/js/TweenMax.min.js: {}
+    build/js/scrollmagic.js: {}
+    build/js/animation.gsap.js: {}
+    build/js/debug.addIndicators.js: {}
+    build/js/script.js: {}
+  dependencies:
+    - core/jquery
+

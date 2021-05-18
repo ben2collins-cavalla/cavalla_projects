@@ -1,0 +1,12 @@
+uuid: 418f1967-5773-4230-9516-d1865653e083
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rIeoYkSyztqQRbdP-Q3OCRMdn7nVSAseCvGmokbMk0g
+id: cavalla_timeline_carousel
+label: 'Timeline Carousel'
+icon_uuid: null
+icon_default: null
+description: 'Use this widget to create timelines that include full background image carousels.'
+behavior_plugins: {  }

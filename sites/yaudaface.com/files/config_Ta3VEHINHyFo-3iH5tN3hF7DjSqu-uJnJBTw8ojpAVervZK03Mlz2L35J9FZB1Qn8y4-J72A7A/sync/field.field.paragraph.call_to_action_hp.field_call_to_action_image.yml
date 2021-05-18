@@ -1,0 +1,40 @@
+uuid: 3107f7c1-dbb8-41f6-8f7c-6cab46215ce7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_call_to_action_image
+    - paragraphs.paragraphs_type.call_to_action_hp
+  module:
+    - image
+_core:
+  default_config_hash: FxgIfzD2SfPQT_YWh5pbXURswafd1207BLSvqQ2b12c
+id: paragraph.call_to_action_hp.field_call_to_action_image
+field_name: field_call_to_action_image
+entity_type: paragraph
+bundle: call_to_action_hp
+label: Image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

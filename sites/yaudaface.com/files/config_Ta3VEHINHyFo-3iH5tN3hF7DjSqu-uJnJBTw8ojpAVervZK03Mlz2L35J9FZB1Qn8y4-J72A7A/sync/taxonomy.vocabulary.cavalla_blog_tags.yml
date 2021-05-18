@@ -1,0 +1,10 @@
+uuid: cfda3f0c-3873-4cc4-8c51-08f7509c6691
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 6r1aj4guU5NLk3Pgjhf0o9UHvWAcA8IbLls4OYuqZiY
+name: 'Article Tags'
+vid: cavalla_blog_tags
+description: 'Use tags to group articles on similar topics into categories.'
+weight: -9

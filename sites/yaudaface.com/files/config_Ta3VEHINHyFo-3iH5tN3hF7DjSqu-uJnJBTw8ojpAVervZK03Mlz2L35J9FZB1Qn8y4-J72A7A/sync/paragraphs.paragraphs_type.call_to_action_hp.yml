@@ -1,0 +1,12 @@
+uuid: bb034cc3-692c-43fd-a21e-55e523496417
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: B7oUIiPd-EnAeYlPe2uzSiOIcyq-6Ujg0FSErSssOq8
+id: call_to_action_hp
+label: 'YaudaFace Call to Action'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

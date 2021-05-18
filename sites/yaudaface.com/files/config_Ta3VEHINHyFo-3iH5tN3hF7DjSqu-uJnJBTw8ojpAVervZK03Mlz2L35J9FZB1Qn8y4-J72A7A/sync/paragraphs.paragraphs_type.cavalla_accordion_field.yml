@@ -1,0 +1,12 @@
+uuid: feee1b43-c5cf-4593-9c5e-ac4a6d3be75e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 5UgOZzv8sNTF9E5BdwXYxjgBVG7qgMcQlJZtRvwpAoY
+id: cavalla_accordion_field
+label: 'Accordion Field'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

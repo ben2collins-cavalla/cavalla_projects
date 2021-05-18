@@ -1,0 +1,22 @@
+uuid: 03bcc8d8-73e3-4841-8874-b114d7b564b9
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - node
+_core:
+  default_config_hash: NYIBs58FVlZLEmQOKNn8M8Zct-H6pywlpXkvbpJwqXQ
+id: node.field_cavalla_blog_comments
+field_name: field_cavalla_blog_comments
+entity_type: node
+type: comment
+settings:
+  comment_type: cavalla_blog_comments
+module: comment
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

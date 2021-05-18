@@ -1,0 +1,22 @@
+uuid: b62cc666-a544-4766-9a4c-ea93abe960cb
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: AC4p55K3Klo9zqQBe6jVFsCDT9o_3QvdhgKj-J6AFO8
+id: paragraph.field_cavalla_pf_product_count
+field_name: field_cavalla_pf_product_count
+entity_type: paragraph
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

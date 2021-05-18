@@ -1,0 +1,23 @@
+uuid: 9c02860d-2c14-4939-a740-9daef8dd10c4
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - cavalla_theme
+_core:
+  default_config_hash: Q-4EcGAsu26ICu4ejEz0uE1zv4akpiaOsizxgZfAmEw
+id: cavalla_theme_search
+theme: cavalla_theme
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+  page_id: node_search
+visibility: {  }

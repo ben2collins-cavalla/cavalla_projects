@@ -1,0 +1,21 @@
+uuid: f556006e-2dc6-4997-bf85-662f7e68f240
+langcode: en
+status: false
+dependencies: {  }
+_core:
+  default_config_hash: bRkVtBtthvXqYO2_LaB-X6ZSlj1kbBX8G_I1zjWBZU4
+id: default
+label: Default
+weight: null
+plugin: manual
+configuration:
+  instructions:
+    value: ''
+    format: plain_text
+  display_label: Manual
+  mode: n/a
+  payment_method_types:
+    - credit_card
+  collect_billing_information: true
+conditions: {  }
+conditionOperator: AND

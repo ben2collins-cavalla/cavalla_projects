@@ -1,0 +1,12 @@
+uuid: a312edbb-0707-49b3-acd8-2bed05d21a76
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: H2Dzj5H7HvjAsZL6cmnCYcsO76h0PIRfhmIO7nyiSVM
+id: cavalla_timeline_carousel_field
+label: 'Timeline Event'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

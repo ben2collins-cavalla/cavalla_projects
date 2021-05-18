@@ -1,0 +1,306 @@
+body{
+    color: initial;
+}
+.call_to_action_bundle{
+    height: 90vh;
+}
+
+@media only screen and (max-width: 767px){
+    .call_to_action_bundle {
+        max-height: 100%;
+    }
+}
+
+.card-body{
+    color: black;
+    border-top: .5px solid #eee;
+}
+
+.card-body a,
+.card-title {
+    color: initial;
+}
+
+
+
+.card-body a::after,
+.category_link a:after{
+    font-family: "FontAwesome";
+    content: "\f0a9";
+    float: right;
+    margin-left: .5rem;
+}
+
+.card-text{
+    display: none;
+}
+
+/* .center{
+    position: absolute;
+    width: 90%;
+    height:90%;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 5px 25px 5px rgba(0, 0, 0, 0.2);
+}
+
+.mobile_browser .center{
+    position: relative;
+    transform: none;
+    margin: auto;
+    left: 0;
+    top:0;
+}
+ */
+
+ .center{
+    position: relative;
+    transform: none;
+    margin: auto;
+    left: 0;
+    top:0;
+    width: 90%;
+    height:90%;
+}
+
+#header {
+    background:transparent;
+}
+
+.hp_employment .swiper-container{
+    height:90vh;
+}
+
+
+.hp_employment .timeline_carousel_bundle {
+    box-shadow: none;
+    height: 100%;
+}
+
+.hp_project{
+    background-image: url(https://images.pexels.com/photos/270373/pexels-photo-270373.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-size: cover;
+}
+
+.hp_project:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    top: 0;
+    left: 0;
+    opacity: .9;
+}
+/*.hp_project__embed_html{
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+}
+
+ .hp_project__embed_html .hp_project__embed_html_wrapper{
+    background-image: url('http://cavallatech.com.test/cavalla_projects/sites/cavallatech.com/files/2020-08/iphone-x-macbook-hero-imessage-how-to-social-card.png');
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+} */
+
+.hp_project .card_display img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.hp_project .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: auto !important;
+}
+
+.hp_skillset .btn{
+    background: transparent;
+    color: initial;
+}
+
+@media  screen and (orientation: landscape) and (max-height: 767px) {
+    .hp_project__project_feed img {
+        display: none;
+    }
+}
+
+@media (max-width: 767px){
+    .hp_project__project_feed .row-cols-md-3>* {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.hp_project__embed_html  video{
+    width: 100% !important;
+    height: 400px;
+    max-width: 600px;
+    top: 38px;
+    left: 75px;
+    z-index: -1;
+}
+
+.hp_skillset .card img{
+  object-fit: contain !important;
+}
+
+@media (min-width: 768px){
+    .row-cols-md-3>* {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.page-footer .footer-menus {
+    display: none;
+}
+
+.panel {
+    height: 100%;
+    width: 20%; /* relative to parent -> 25% of 400% = 100% of window width */
+    float: left;
+    position: relative;
+}
+
+#pinContainer {
+    width: 100%;
+    height: 100vh !important;
+    overflow: hidden;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+}
+
+#slideContainer {
+    width: 500%; /* to contain 4 panels, each with 100% of window width */
+    height: 100%;
+}
+
+#slideContainer #card_bundle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+.mobile_browser #slideContainer #card_bundle {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+}
+
+#slideContainer .card_bundle{
+   padding: 0;
+}
+
+#slideContainer .card_bundle .text-center{
+    text-align: left !important;
+ }
+
+ #timeline_carousel_bundle::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--black);
+    opacity: .4;
+    z-index: 4;
+}
+
+#timeline_carousel_bundle .carousel-control-next,
+#timeline_carousel_bundle .carousel-control-prev{
+    z-index: 4;
+}
+
+@media (max-width:767px){
+
+    #timeline_carousel_bundle .carousel-control-next,
+    #timeline_carousel_bundle .carousel-control-prev {
+        width: 21px;
+        height: 100px;
+        z-index: 9999999;
+        top: 50%;
+        opacity: 1;
+    }
+}
+
+#timeline_carousel_bundle .carousel-item {
+    height:90vh !important;
+}
+
+
+#timeline_carousel_bundle .carousel-item img {
+    height:100vh !important;
+    object-fit:cover;
+}
+
+#timeline_carousel_bundle .swiper-slide-content {
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    color: var(--white);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 700px;
+    padding: 0 15px;
+}
+
+#timeline_carousel_bundle  .timeline-text{
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px){
+
+    #timeline_carousel_bundle  .timeline-text{
+        height: 200px;
+        overflow: auto;
+    }
+}
+
+
+
+@media (min-width: 768px){
+    .row-cols-md-3>* {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+ .hp_project .container {
+    position: relative;
+    top: initial;
+    left: initial;
+    transform: none;
+    margin: auto;
+}
+
+ #pinContainer {
+    height: fit-content !important;
+}
+ .panel {
+    height: 100%;
+    width: 100%;
+    float: none;
+    margin-bottom: 2rem;
+}
+
+#slideContainer {
+    width: 100%;
+    height: fit-content;
+    transform: none !important;
+}

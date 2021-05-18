@@ -1,0 +1,12 @@
+uuid: 30b0b95b-56a8-4a60-9008-7af83cfd9959
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: O8Fz5Bm0KMpF_YbkOL_X8nVXmXcXM2p27nrch2QNGBE
+id: cavalla_blog_recent_post
+label: 'Recent Post'
+icon_uuid: null
+icon_default: null
+description: 'A widget for displaying most recent blog post.'
+behavior_plugins: {  }

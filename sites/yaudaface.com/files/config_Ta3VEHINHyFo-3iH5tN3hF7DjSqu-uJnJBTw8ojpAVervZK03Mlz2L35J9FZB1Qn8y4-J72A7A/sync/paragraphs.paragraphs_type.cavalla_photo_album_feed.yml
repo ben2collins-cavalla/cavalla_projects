@@ -1,0 +1,12 @@
+uuid: 7655ef67-a486-4389-8ff8-b1ecb0a86256
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ALqujrGO_-g04Rcwtyuhjo-C-pwcIu9CJJRBw7ZnlOU
+id: cavalla_photo_album_feed
+label: 'Cavalla Photo Album Feed'
+icon_uuid: null
+icon_default: null
+description: 'A paragraph bundle that display a collection of cards that link to all published photo albums.'
+behavior_plugins: {  }

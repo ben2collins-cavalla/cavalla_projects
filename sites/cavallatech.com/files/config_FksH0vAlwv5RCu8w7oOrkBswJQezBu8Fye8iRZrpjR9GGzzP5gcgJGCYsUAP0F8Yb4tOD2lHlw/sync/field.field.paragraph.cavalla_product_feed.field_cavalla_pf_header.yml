@@ -1,0 +1,21 @@
+uuid: 44822022-f08c-45d7-ad9f-172960aadd40
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cavalla_pf_header
+    - paragraphs.paragraphs_type.cavalla_product_feed
+_core:
+  default_config_hash: WEx_ixUUKRvuiRgmPwafa4yRVEzK9CTVtAbCJBw-Ors
+id: paragraph.cavalla_product_feed.field_cavalla_pf_header
+field_name: field_cavalla_pf_header
+entity_type: paragraph
+bundle: cavalla_product_feed
+label: Header
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

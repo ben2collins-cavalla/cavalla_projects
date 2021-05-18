@@ -1,0 +1,21 @@
+uuid: 16c5a98e-b640-4877-a617-e77f74f7e153
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+_core:
+  default_config_hash: UTZWJ11kpnx-8o_BsouO3xK4UQUGlo209y6-W4sYuig
+id: paragraph.field_cavalla_wf_map
+field_name: field_cavalla_wf_map
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

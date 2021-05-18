@@ -1,0 +1,23 @@
+uuid: 38c7aa27-7b88-4c42-bf6f-49aaabc8c48e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cavalla_wf_telephone
+    - paragraphs.paragraphs_type.cavalla_webform
+  module:
+    - telephone
+_core:
+  default_config_hash: eaAhFD6JXdOHM_csvacfvmTYui_WLbOrrGZCm5OkDUw
+id: paragraph.cavalla_webform.field_cavalla_wf_telephone
+field_name: field_cavalla_wf_telephone
+entity_type: paragraph
+bundle: cavalla_webform
+label: Telephone
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

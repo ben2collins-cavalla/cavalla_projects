@@ -1,0 +1,12 @@
+uuid: 472929f7-3164-491d-b2b0-e4db87ced5a7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: V4U4RP3qxpf2aP9YLyIkJ1_5uhIq-XgUMt3QVv4iBCs
+id: cavalla_accordion
+label: Accordion
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

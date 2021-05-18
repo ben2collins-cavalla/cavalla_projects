@@ -1,0 +1,31 @@
+uuid: a337ae84-f1f8-4358-b167-bcd3f52be69d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_cavalla_taxonomy_node_feed
+    - taxonomy.vocabulary.cavalla_blog_category
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: 1DlJw3UoJQDejtYJ2bk15g1sFu3U5VB1wz3mJNlJ-cE
+id: taxonomy_term.cavalla_blog_category.field_cavalla_taxonomy_node_feed
+field_name: field_cavalla_taxonomy_node_feed
+entity_type: taxonomy_term
+bundle: cavalla_blog_category
+label: 'Taxonomy Feed'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: {  }
+    target_bundles_drag_drop:
+      cavalla_taxonomy:
+        enabled: true
+        weight: 41
+field_type: entity_reference_revisions

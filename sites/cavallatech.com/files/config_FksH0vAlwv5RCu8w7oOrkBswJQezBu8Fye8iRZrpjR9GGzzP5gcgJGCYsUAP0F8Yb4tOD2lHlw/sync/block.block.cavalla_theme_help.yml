@@ -1,0 +1,22 @@
+uuid: 1b65c2c1-e419-41b9-99eb-c06c4539eccf
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - cavalla_theme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: cavalla_theme_help
+theme: cavalla_theme
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

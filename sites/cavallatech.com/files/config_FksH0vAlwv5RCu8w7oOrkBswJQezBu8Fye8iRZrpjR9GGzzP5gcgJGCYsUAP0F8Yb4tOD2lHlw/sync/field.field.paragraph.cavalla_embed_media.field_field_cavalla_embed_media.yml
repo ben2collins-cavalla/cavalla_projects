@@ -1,0 +1,30 @@
+uuid: 6b48741a-89ab-4a89-9e11-852bf9e83454
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_field_cavalla_embed_media
+    - media.type.cavalla_embed_media
+    - paragraphs.paragraphs_type.cavalla_embed_media
+_core:
+  default_config_hash: GYKWVTUqt1D21j6ee8WlBKJa1fbQSkCjtPIscugoDyI
+id: paragraph.cavalla_embed_media.field_field_cavalla_embed_media
+field_name: field_field_cavalla_embed_media
+entity_type: paragraph
+bundle: cavalla_embed_media
+label: 'Embed Media'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      cavalla_embed_media: cavalla_embed_media
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: remote_video
+field_type: entity_reference

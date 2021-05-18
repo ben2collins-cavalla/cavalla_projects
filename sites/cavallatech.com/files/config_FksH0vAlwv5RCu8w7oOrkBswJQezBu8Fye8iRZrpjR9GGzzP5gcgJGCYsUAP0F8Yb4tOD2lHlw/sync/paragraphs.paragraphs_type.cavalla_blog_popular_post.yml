@@ -1,0 +1,12 @@
+uuid: 18045967-4bd8-4369-8c0e-141566a53fd9
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Vegl2wmYjqpQm2lfuoTyvtyeZ8YHM2xyhNKx7evYw-g
+id: cavalla_blog_popular_post
+label: 'Popular Post'
+icon_uuid: null
+icon_default: null
+description: 'A widget for displaying a list of popular blog post'
+behavior_plugins: {  }

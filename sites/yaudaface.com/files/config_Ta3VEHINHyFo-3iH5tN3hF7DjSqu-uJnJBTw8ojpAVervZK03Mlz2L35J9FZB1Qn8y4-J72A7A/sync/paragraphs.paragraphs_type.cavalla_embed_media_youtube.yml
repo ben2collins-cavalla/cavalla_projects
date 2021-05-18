@@ -1,0 +1,12 @@
+uuid: 0c9d9c13-80f1-421f-8edb-762a607937d7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rJc4UzdElK33S-xbhqsAhvray8GxSgMQLbayS8kNykA
+id: cavalla_embed_media_youtube
+label: 'Embed Youtube'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

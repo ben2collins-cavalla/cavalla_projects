@@ -1,0 +1,21 @@
+uuid: f7bc1452-d36b-439c-8c16-91ff0fcf7d86
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: JYevL-Tz_kXAGV8_Ksds8G6dZCoYJ14tj1Kr76XPUWg
+id: node.field_cavalla_blog_summary
+field_name: field_cavalla_blog_summary
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

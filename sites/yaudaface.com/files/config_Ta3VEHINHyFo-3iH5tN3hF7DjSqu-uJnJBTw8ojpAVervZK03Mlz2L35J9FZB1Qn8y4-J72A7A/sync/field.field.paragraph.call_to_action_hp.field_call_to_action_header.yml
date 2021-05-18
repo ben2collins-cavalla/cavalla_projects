@@ -1,0 +1,21 @@
+uuid: 30eaedbb-7e97-4da3-8093-e67fd2d534f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_call_to_action_header
+    - paragraphs.paragraphs_type.call_to_action_hp
+_core:
+  default_config_hash: 6SJSU4XbrxVfioG86Qmai5nZmp95AaLpxaZBsy3u7GY
+id: paragraph.call_to_action_hp.field_call_to_action_header
+field_name: field_call_to_action_header
+entity_type: paragraph
+bundle: call_to_action_hp
+label: Header
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

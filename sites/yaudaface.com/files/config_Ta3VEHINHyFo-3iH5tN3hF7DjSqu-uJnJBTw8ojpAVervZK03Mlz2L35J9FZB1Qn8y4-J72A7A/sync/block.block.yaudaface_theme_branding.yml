@@ -1,0 +1,25 @@
+uuid: 6d31feba-793d-4452-a108-62165558d898
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - yaudaface_theme
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: yaudaface_theme_branding
+theme: yaudaface_theme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

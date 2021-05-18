@@ -1,0 +1,20 @@
+uuid: ad76e087-151e-4af8-b0bc-31aa5a914573
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: FfngQA1nZLdVlvqVh2rlQkkvENcBdT19wj81vdHhpfA
+id: paragraph.field_call_to_action_animation
+field_name: field_call_to_action_animation
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

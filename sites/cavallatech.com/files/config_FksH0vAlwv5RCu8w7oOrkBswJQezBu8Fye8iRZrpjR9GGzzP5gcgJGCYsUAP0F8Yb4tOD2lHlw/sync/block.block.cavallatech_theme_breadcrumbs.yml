@@ -1,0 +1,22 @@
+uuid: 9df3c417-a7bc-417f-a483-e073d0891a81
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cavallatech_theme
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: cavallatech_theme_breadcrumbs
+theme: cavallatech_theme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

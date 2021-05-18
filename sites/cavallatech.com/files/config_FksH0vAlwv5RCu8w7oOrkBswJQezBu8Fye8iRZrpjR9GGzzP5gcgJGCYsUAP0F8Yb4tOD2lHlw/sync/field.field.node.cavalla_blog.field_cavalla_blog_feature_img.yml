@@ -1,0 +1,28 @@
+uuid: 798b8113-d4d3-4541-b042-1c13af531beb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cavalla_blog_feature_img
+    - media.type.image
+    - node.type.cavalla_blog
+id: node.cavalla_blog.field_cavalla_blog_feature_img
+field_name: field_cavalla_blog_feature_img
+entity_type: node
+bundle: cavalla_blog
+label: Image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

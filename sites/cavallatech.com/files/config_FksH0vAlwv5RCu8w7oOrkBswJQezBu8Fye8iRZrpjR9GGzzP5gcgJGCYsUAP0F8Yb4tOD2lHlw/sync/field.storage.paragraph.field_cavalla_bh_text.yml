@@ -1,0 +1,21 @@
+uuid: d1b2c938-dc9c-4a34-a0da-80ecdff29f9d
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: LaHJt1jY0awrhuURmjh90W4mAZIAdnHC3tihI1sKPuQ
+id: paragraph.field_cavalla_bh_text
+field_name: field_cavalla_bh_text
+entity_type: paragraph
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

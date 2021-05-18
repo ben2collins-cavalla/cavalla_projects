@@ -1,0 +1,23 @@
+uuid: 654ea2f0-4293-4457-843b-bf1733347e02
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - paragraphs
+_core:
+  default_config_hash: TExG1F2uNgA3EVi73XOrHyycv1jDP4T-IuxmejN8ALg
+id: node.field_cavalla_blog_widgets
+field_name: field_cavalla_blog_widgets
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

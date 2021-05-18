@@ -1,0 +1,21 @@
+uuid: 83920285-8055-44ea-b6b9-c4b451217b5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cavalla_accordion_title
+    - paragraphs.paragraphs_type.cavalla_accordion
+_core:
+  default_config_hash: 55IPqzwa8toOQAhhH0Y_NZbPk_IpPI0Scu06Yd7zCzc
+id: paragraph.cavalla_accordion.field_cavalla_accordion_title
+field_name: field_cavalla_accordion_title
+entity_type: paragraph
+bundle: cavalla_accordion
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

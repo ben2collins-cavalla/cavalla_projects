@@ -1,0 +1,23 @@
+uuid: d8150e3c-160a-468e-bac1-d2600716bf34
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - viewfield
+    - views
+_core:
+  default_config_hash: q0uYF5Rla-UtB2oia6q95gJqjh0hh9pOECBx3Jy7hWU
+id: paragraph.field_cavalla_photo_album_feeds
+field_name: field_cavalla_photo_album_feeds
+entity_type: paragraph
+type: viewfield
+settings:
+  target_type: view
+module: viewfield
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

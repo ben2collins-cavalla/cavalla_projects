@@ -1,0 +1,21 @@
+uuid: d21c4901-c023-47a8-afaa-ee6076b75475
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_call_to_action_subtext
+    - paragraphs.paragraphs_type.call_to_action_hp
+_core:
+  default_config_hash: 7nX69vG6AuOPleZlRQQ1ztYX8i8_ICTdzzOtO6BXt8c
+id: paragraph.call_to_action_hp.field_call_to_action_subtext
+field_name: field_call_to_action_subtext
+entity_type: paragraph
+bundle: call_to_action_hp
+label: Subtext
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

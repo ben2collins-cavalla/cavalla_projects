@@ -1,0 +1,25 @@
+uuid: b3c7f73c-9786-4c93-a058-c7afa4482fa8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cavalla_call_to_action_vw
+    - paragraphs.paragraphs_type.call_to_action_hp
+_core:
+  default_config_hash: S3AJKvjT-m2U1YBdQMXPvCWewIMDwfmOvHyT4aTDS1o
+id: paragraph.call_to_action_hp.field_cavalla_call_to_action_vw
+field_name: field_cavalla_call_to_action_vw
+entity_type: paragraph
+bundle: call_to_action_hp
+label: '1/2 Background Image Size'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

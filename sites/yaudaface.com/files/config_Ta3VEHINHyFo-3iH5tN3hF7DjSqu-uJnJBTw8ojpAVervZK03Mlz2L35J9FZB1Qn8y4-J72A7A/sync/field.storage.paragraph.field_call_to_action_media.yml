@@ -1,0 +1,22 @@
+uuid: 712c7b8c-8cd4-4fa5-b10e-3eb017db185f
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - paragraphs
+_core:
+  default_config_hash: gyIpAMQh-sQX_AdUfskhcoePLyBwu-2ok76QhLWnm6U
+id: paragraph.field_call_to_action_media
+field_name: field_call_to_action_media
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

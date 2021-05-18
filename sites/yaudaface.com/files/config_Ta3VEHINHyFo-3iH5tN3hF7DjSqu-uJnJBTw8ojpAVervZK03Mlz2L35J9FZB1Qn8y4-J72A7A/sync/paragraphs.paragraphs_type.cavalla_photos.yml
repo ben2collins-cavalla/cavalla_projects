@@ -1,0 +1,12 @@
+uuid: 2d4f8f06-1ddf-4d09-ad3a-43ff6fa17bcf
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: cXqI_M4j7g7Jglmb0oVckgN6wcU39N-yhU-JS9HViWM
+id: cavalla_photos
+label: 'Cavalla Photos'
+icon_uuid: null
+icon_default: null
+description: 'Provides a paragraphs bundle for adding Photos Elements to site.'
+behavior_plugins: {  }

@@ -1,0 +1,15 @@
+<section class="webform_bundle">
+  <section class="container">
+    <section class="row">
+      {%  if true in content.field_cavalla_wf_intro_title[0] %}
+      <h1 class="w-100">{{ content.field_cavalla_wf_intro_title[0] }}</h1>
+      {% endif %}
+      {%  if true in content.field_cavalla_wf_intro_text %}
+      <p class="lead w-100">{{ content.field_cavalla_wf_intro_text[0] }}</p>
+      {% endif %}
+    </section>
+    <section class="row">
+      {{ content.field_cavalla_wf_webform }}
+    </section>
+  </section>
+</section>

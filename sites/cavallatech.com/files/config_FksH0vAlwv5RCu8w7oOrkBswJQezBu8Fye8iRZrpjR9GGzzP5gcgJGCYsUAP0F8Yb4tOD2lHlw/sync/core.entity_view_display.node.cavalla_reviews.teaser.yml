@@ -1,0 +1,32 @@
+uuid: cfdb2df4-6a2f-4df4-b6ac-fc9597aa42c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.cavalla_reviews.field_cavalla_review_fn
+    - field.field.node.cavalla_reviews.field_cavalla_review_image
+    - field.field.node.cavalla_reviews.field_cavalla_review_ln
+    - field.field.node.cavalla_reviews.field_cavalla_review_quote
+    - field.field.node.cavalla_reviews.field_cavalla_review_rating
+    - node.type.cavalla_reviews
+  module:
+    - user
+_core:
+  default_config_hash: _baWjC16h3l4BPfK2lHLRRngzVrFb7rC0_Fya6Lobyc
+id: node.cavalla_reviews.teaser
+targetEntityType: node
+bundle: cavalla_reviews
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_cavalla_review_fn: true
+  field_cavalla_review_image: true
+  field_cavalla_review_ln: true
+  field_cavalla_review_quote: true
+  field_cavalla_review_rating: true

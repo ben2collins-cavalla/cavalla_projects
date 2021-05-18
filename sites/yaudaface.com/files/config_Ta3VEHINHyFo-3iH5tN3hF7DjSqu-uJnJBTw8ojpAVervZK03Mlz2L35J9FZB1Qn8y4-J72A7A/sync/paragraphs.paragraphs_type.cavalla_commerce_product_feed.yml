@@ -1,0 +1,12 @@
+uuid: 5eebf39b-8da4-40d8-a2a3-ce2c4017e52c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vlwrIN6j3YtSqczo4Asl_4F648VsNFwIi2c2YuRH5LE
+id: cavalla_commerce_product_feed
+label: 'Product Feed'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

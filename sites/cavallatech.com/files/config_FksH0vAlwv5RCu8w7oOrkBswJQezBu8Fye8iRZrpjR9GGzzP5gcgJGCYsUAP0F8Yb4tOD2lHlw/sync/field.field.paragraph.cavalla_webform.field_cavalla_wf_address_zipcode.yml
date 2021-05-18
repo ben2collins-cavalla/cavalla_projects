@@ -1,0 +1,21 @@
+uuid: fbc3246c-dd6c-4c26-8801-c8a614b49a26
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cavalla_wf_address_zipcode
+    - paragraphs.paragraphs_type.cavalla_webform
+_core:
+  default_config_hash: pCDe628QMDawJ1aJBqWKsdr_1fJVm2DSaxaYPVGgTtU
+id: paragraph.cavalla_webform.field_cavalla_wf_address_zipcode
+field_name: field_cavalla_wf_address_zipcode
+entity_type: paragraph
+bundle: cavalla_webform
+label: Zipcode
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

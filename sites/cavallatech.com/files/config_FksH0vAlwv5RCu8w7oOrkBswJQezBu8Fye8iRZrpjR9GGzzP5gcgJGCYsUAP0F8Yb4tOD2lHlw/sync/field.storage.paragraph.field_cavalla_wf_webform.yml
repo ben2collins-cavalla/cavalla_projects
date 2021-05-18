@@ -1,0 +1,22 @@
+uuid: baaeed2a-d04a-4a2a-bddf-7f2a3927facc
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - webform
+_core:
+  default_config_hash: iIGPONvDSbeI0P_vTU6ZMBRCLj9VyPzrggSQx7U9yGI
+id: paragraph.field_cavalla_wf_webform
+field_name: field_cavalla_wf_webform
+entity_type: paragraph
+type: webform
+settings:
+  target_type: webform
+module: webform
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,12 @@
+uuid: d800f17a-1cea-463e-a6d3-25a9ee58dcc3
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 3Bztsn231I8V-k0h4GKADk0dEqonkj_2ABJ7htR-6SI
+id: cavalla_webform
+label: 'Cavalla Webform'
+icon_uuid: null
+icon_default: null
+description: "A Paragraph Bundle that provides a means to embed webforms to Cavalla Basic Pages\t\r\n"
+behavior_plugins: {  }

@@ -1,0 +1,20 @@
+uuid: c5ef5a27-c345-46a5-b4c8-1cb30349f3a3
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: 9S9Je2pBRYKBEg_nCVg7Ak5exFkdFQ8V9364CvFKb1c
+id: paragraph.field_cavalla_call_to_action_vw
+field_name: field_cavalla_call_to_action_vw
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

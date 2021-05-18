@@ -1,0 +1,28 @@
+<!-- <style>
+  svg {
+
+  }
+   svg text {
+
+}
+ svg rect {
+    fill: white;
+}
+
+ svg > rect {
+      -webkit-mask: url(#mask);
+      mask: url(#mask);
+}
+</style> -->
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1400" preserveAspectRatio="xMidYMid slice" style="width:100%;position:absolute;top: 0;left: 0;height: 100%;webkit-mask: url(#mask);mask: url(#mask);">
+    <defs>
+    <mask id="mask" x="0" y="0" width="100%" height="100%">
+      <rect x="0" y="0" width="100%" height="100%" style="fill: white;"></rect>
+      <text x="0" y="50%" style="font-family: Biko, sans-serif;font-weight: 700;text-transform: uppercase;font-size: calc(18em + 1vw);">Yauda</text>
+      <text x="65" y="68%" style="font-family: Biko, sans-serif;font-weight: 700;text-transform: uppercase;font-size: calc(18em + 1vw);">Face</text>
+
+      </mask>
+  </defs>
+ <rect x="0" y="0" width="100%" height="100%"></rect>
+</svg>

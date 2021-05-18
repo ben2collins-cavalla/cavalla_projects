@@ -1,0 +1,23 @@
+uuid: 87c3ed72-debb-46c2-9db0-4d8734ae5d09
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: GRNFSX6_ufO6WerZYNPB9ic6LYH0Vbb934_K5MRdlt4
+id: paragraph.field_cavalla_reviews_feed_title
+field_name: field_cavalla_reviews_feed_title
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

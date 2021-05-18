@@ -1,0 +1,40 @@
+<?php
+
+/**
+ * @file
+ * cavallatech_theme file.
+ */
+
+
+
+
+/**
+ * Implements hook_preprocessor().
+ * Lets us define our node templates in this module.
+ */
+
+function cavallatech_theme_preprocess_paragraph(&$variables) {
+  $variables['base_url_node']= getBaseUrl();
+}
+
+function cavallatech_theme_preprocess_node__cavalla_homepage__full(array &$variables) {
+  $variables['#attached']['library'][] =  'cavallatech_theme/homepage';
+}
+
+function cavallatech_theme_theme_suggestions__image(array $variables) {
+  $suggestions = [];
+  $suggestions[] = 'image__cavalla_blog__field_media_image';
+  return $suggestions;
+}
+
+/*  function cavallatech_theme_preprocess_image(array &$variables) {
+  $variables['attributes']['class'] = 'background_image';
+}
+ */
+function cavallatech_theme_preprocess_field(&$vars) {
+  if ($vars['element']['#field_name'] == 'field_cavalla_blog_hero') {
+    foreach($vars['items'] as $key => $item){
+      $vars['items'][ $key ]['content']['#item_attributes']['class'][] = 'background_image';
+    }
+  }
+}

@@ -1,0 +1,12 @@
+uuid: ac6b8108-8cb3-486e-9dd5-198e704a8d9c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: PNogb8jrinhFSFkRMOoKUILffoY5MQ5eFItL-pf02g4
+id: cavalla_taxonomy_feed
+label: 'Taxonomy Feed'
+icon_uuid: null
+icon_default: null
+description: 'Provides a paragraph bundle for a feed of blog nodes. The node displayed grouped and listed based on their Taxonomy Term Name.'
+behavior_plugins: {  }

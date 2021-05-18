@@ -1,0 +1,25 @@
+uuid: 1199b32f-eea5-4451-a5e3-671881d1cddb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cavalla_cta_overlay
+    - paragraphs.paragraphs_type.cavalla_call_to_action
+_core:
+  default_config_hash: Qj_6k2VnagR65DHBA_q43MmTIQMHrO6NyOcti13VMe0
+id: paragraph.cavalla_call_to_action.field_cavalla_cta_overlay
+field_name: field_cavalla_cta_overlay
+entity_type: paragraph
+bundle: cavalla_call_to_action
+label: 'Activate Overlay'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,25 @@
+uuid: a80b8a59-0729-4ea2-a875-da5afc1d8654
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.cavalla_photo_album_feed.field_cavalla_photo_album_feeds
+    - paragraphs.paragraphs_type.cavalla_photo_album_feed
+  module:
+    - viewfield
+_core:
+  default_config_hash: E09Gbng400witq4oTa0SRPA0LntnEp49omHj4z9Ezl4
+id: paragraph.cavalla_photo_album_feed.default
+targetEntityType: paragraph
+bundle: cavalla_photo_album_feed
+mode: default
+content:
+  field_cavalla_photo_album_feeds:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: viewfield_select
+    region: content
+hidden:
+  created: true
+  status: true

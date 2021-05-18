@@ -1,0 +1,20 @@
+uuid: e610dcf4-d7f8-4a31-8148-9a81d8669ba1
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: N0fSQfan3Whk4BC9tCs9lBP8ATzPMuG9gHZeRw4RWws
+id: paragraph.field_featurettes_animation
+field_name: field_featurettes_animation
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

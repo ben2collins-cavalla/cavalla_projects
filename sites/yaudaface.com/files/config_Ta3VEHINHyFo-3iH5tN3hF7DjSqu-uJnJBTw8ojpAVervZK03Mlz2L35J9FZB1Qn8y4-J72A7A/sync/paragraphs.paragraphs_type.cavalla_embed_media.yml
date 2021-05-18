@@ -1,0 +1,12 @@
+uuid: 482eaff7-e6df-44fc-86f2-4163306856d6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: BhqJyr2tkfpMCrix2sACjZcNg4uhL8tMLED6VjxJVoE
+id: cavalla_embed_media
+label: 'Cavalla Embed Media'
+icon_uuid: null
+icon_default: null
+description: 'Provides a paragraph bundle for adding media embeds for Soundcloud and Youtube.'
+behavior_plugins: {  }

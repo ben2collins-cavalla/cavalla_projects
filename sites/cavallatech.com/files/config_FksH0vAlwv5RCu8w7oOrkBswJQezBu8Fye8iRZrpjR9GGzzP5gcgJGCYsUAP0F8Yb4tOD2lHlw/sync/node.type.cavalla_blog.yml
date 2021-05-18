@@ -1,0 +1,20 @@
+uuid: 07957d57-f656-4c5d-a4af-574dbdcb0213
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: QQFbZ7FsdtKU-SiUngPkFKowFrlXdE6Q2ANQ6DIfFjI
+name: 'Cavalla Article'
+type: cavalla_blog
+description: "Use Cavalla Article for time-sensitive content like news, press releases or blog posts.\t\r\n"
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

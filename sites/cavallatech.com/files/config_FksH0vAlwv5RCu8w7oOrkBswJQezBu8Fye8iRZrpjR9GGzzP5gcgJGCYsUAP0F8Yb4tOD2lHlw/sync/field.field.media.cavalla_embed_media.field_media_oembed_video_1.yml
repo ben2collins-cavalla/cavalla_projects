@@ -1,0 +1,21 @@
+uuid: 1f35fc74-24f8-448e-821b-75a7d240a1d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_oembed_video_1
+    - media.type.cavalla_embed_media
+_core:
+  default_config_hash: RWa1VWX3W0mk5WIG0LpBkkpDul82P337tYGpJbm2auo
+id: media.cavalla_embed_media.field_media_oembed_video_1
+field_name: field_media_oembed_video_1
+entity_type: media
+bundle: cavalla_embed_media
+label: 'Remote video URL'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

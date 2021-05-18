@@ -1,0 +1,21 @@
+uuid: 060b4e46-292a-4b98-a392-5dd1805d618c
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+_core:
+  default_config_hash: okLZF4_D_JVCJrDkPkRRtr43jVcKjTRA4BGDt3tIID0
+id: paragraph.field_cavalla_tc_event_detail
+field_name: field_cavalla_tc_event_detail
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

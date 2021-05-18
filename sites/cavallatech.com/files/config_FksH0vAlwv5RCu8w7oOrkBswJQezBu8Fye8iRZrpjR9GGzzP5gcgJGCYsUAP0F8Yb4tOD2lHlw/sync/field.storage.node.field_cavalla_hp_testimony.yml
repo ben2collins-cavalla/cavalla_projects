@@ -1,0 +1,21 @@
+uuid: 9d3ffbff-e91e-4b00-bd9b-cbe6bd6485f0
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - paragraphs
+id: node.field_cavalla_hp_testimony
+field_name: field_cavalla_hp_testimony
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: e55aee43-3265-4e5a-8fb7-9c982c20759e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - yaudaface_theme
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: yaudaface_theme_breadcrumbs
+theme: yaudaface_theme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

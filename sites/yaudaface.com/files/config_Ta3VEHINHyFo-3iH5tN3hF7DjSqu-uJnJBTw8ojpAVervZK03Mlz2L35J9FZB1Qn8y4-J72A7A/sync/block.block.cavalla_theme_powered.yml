@@ -1,0 +1,22 @@
+uuid: ea55a62f-b25f-40e0-9b24-063c18697544
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cavalla_theme
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: cavalla_theme_powered
+theme: cavalla_theme
+region: header
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

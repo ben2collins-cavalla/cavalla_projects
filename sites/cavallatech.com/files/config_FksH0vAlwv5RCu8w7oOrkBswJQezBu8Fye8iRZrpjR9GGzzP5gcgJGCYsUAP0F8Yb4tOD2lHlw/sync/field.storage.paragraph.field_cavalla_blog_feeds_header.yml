@@ -1,0 +1,23 @@
+uuid: 7713187c-10e6-4756-8bcd-d11897404a1f
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: r-H6dOs0prWqcSWSA4pcDcH9izzpk86S1CItwpJjMxg
+id: paragraph.field_cavalla_blog_feeds_header
+field_name: field_cavalla_blog_feeds_header
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,69 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
+	<head>
+	<!--[if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]-->
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+	<meta content="width=device-width" name="viewport">
+	<!--[if !mso]><!-->
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<!--<![endif]-->
+	<title></title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+	</head>
+	<body style="width: 100%;max-width: 100%;margin: auto;background:#eee;">
+		<div class="container" style="max-width: 570px;margin: auto;background: #fff;">
+			<header class="row" style="display: -ms-flexbox;display: flex;flex-wrap: wrap;background: black;padding: 1rem;">
+				<div class="col-3" style="-ms-flex: 0 0 25%;flex: 0 0 25%;width: 25%;">
+					<img alt="YaudaFace Logo" src="{{ base_url }}themes/contrib/yaudaface_theme/build/image/favicon.ico" width="75" height="auto">
+				</div>
+				<div class="col-9" style="-ms-flex: 0 0 75%;flex: 0 0 75%;width: 75%;">
+					<div style="text-align:right!important;color:#fff;font-size:2.5rem;margin-top: 15px;">YaudaFace</div>
+				</div>
+			</header>
+			<section class="row mb-4" style="display: -ms-flexbox;display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap;margin-bottom: 1.5rem!important;">
+				<section style="width:100%;">
+					<img src="{{ base_url }}/themes/contrib/yaudaface_theme/build/image/cart.jpg" alt="beautiful woman" width="100%" height="325" style="width: 100%;object-fit:cover">
+					<div style="font-size:2.5rem;text-align: center;margin-top: 1rem;margin-bottom: 0;">Your order is on the way!</div>
+				</section>
+			</section>
+			<section class="row mb-4" style="display: -ms-flexbox;display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap;margin-bottom: 0rem!important;">
+				<ul>
+					<li style="width:100%;list-style: none;font-size: 1.25rem;">Shipping To:</li>
+					<li style="width:100%;margin-bottom:0;list-style: none;">{{ name }}</li>
+					<li style="width:100%;margin-bottom:0;list-style: none;">{{ address_addressLine1 }}</li>
+					<li style="width:100%;margin-bottom:0;list-style: none;">{{ address_addressLine2 }}</li>
+					<li style="width:100%;margin-bottom:0;list-style: none;">{{ address_city }},{{ address_state }} {{ address_zipcode }}</li>
+				</ul>
+			</section>
+			<section class="row" style="display: -ms-flexbox;display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap;">
+				<ul style="margin-bottom:1rem;padding-right:40px">
+					<li class="col-12 mb-0" style="-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;margin-bottom: 1rem!important;list-style: NONE;font-size: 1.25rem;">Order Summery:</li>
+					{% for value in order_items %}
+					<li class="media" style="display: flex;justify-content: center;align-items: center;height: 100px;width: 100%">
+						<div style="width:15%;border:1px solid #9a9898;"><img src="{{ base_url }}/themes/contrib/yaudaface_theme/build/image/file_f09cbedf5f_original.png" class="mr-3" alt="..." width="100%" height="100%" style="object-fit:container;margin-right: 1rem!important;width: 50;height: 50;"></div>
+						<div style="width:60%;position:relative;border:1px solid #9a9898;display: flex;justify-content:center;align-items:center;height: auto;"><h5>{{ value.order_getQuantity }}x {{ value.order_Titles }}</h5></div>
+						<div style="margin-top:0!important;margin-bottom:0!important;font-size:1rem;text-align:center;display: flex;justify-content: center;align-items: center;height:auto;border:1px solid #9a9898;"><h5>{{ value.getTotalPrice|commerce_price_format }}</h5></div>
+					</li>
+					{% endfor %}
+				</ul>
+			</section>
+			<section class="row py-3 mb-4" style="background: black;color: #fff;display: -ms-flexbox;display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap;margin-right: -15px;margin-left: -15px;width: 100%;margin: 0;">
+				<div style="width: 30%;margin-left: 1rem;">
+					<p class="my-4" style="margin-bottom:1.5rem !important;margin-right: 1rem;border-right:1px solid #fff;margin-right:25px;padding-right: 15px;">Thank you for ordering with YaudaFace! Be sure to check back on our site for more for all natural skin products.</p>
+				</div>
+				<div style="width: 64%;margin-right: 1rem;">
+					<p style="width:100%;margin:1.125rem 0;">Subtotal: {{ subTotalPrice |commerce_price_format }}</p>
+					<p style="width:100%;margin:1.125rem 0;">Shipping:</p>
+					<p style="width:100%;margin:1.125rem 0;">Total: {{ TotalPrice |commerce_price_format  }}</p>
+				</div>
+			</section>
+			<section style="display: -ms-flexbox;display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap;margin-bottom: 1.5rem!important;/* margin-top: 1rem!important; */padding-bottom: 1rem!important;background: #eee;">
+				<section class="text-center" style="width: 100%;">
+					<ul style="width: 116px;margin:1rem auto;padding:0;">
+						<li style="list-style:none;float: left;margin: 0;margin-right: .75rem;"><a href="https://www.instagram.com/yaudaface/" target="_BLANK"><img src="{{ base_url }}/themes/contrib/yaudaface_theme/build/image/instagram2x.png" class="mr-3" alt="YaudaFace Instagram" width="40" height="40"></a></li>
+						<li style=""><a href="https://www.facebook.com/MsYauda" target="_BLANK"><img src="{{ base_url }}/themes/contrib/yaudaface_theme/build/image/facebook2x.png" class="mr-3" alt="YaudaFace Facebook" width="40" height="40"></a></li>
+					</ul>
+				</section>
+			</section>
+		</div>
+	</body>
+</html>

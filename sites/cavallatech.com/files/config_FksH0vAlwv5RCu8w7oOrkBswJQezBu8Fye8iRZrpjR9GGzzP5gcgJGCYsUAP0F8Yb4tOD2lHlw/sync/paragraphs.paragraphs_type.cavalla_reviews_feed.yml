@@ -1,0 +1,12 @@
+uuid: 577dff7c-9c1d-4374-8e12-07725b1ca825
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: BiPfJuU4bPzSGwXdYXxYgV8w42ycSGOzdThzSeQabsI
+id: cavalla_reviews_feed
+label: 'Cavalla Reviews Feed'
+icon_uuid: null
+icon_default: null
+description: 'Use Cavalla Reviews Feed to view rated critiques and evaluations.'
+behavior_plugins: {  }

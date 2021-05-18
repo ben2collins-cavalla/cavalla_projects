@@ -1,0 +1,185 @@
+.custom-accordion {
+    color: #FFFFFF;
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 767px){
+    .custom-accordion {
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 735px) {
+    .custom-accordion {
+      display: table;
+      width: 100%;
+      margin: 0 auto;
+      height: 100%;
+      padding-bottom: 0;
+    }
+}
+
+.custom-accordion .content {
+    text-align: center;
+    line-height: 1.1;
+}
+
+@media screen and (max-width: 767px){
+    .custom-accordion .content {
+        display: none;
+      }
+}
+
+.custom-accordion > .item {
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    max-width: 30rem;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+@media screen and (min-width: 735px) {
+    .custom-accordion > .item {
+      display: table-cell;
+      position: relative;
+      height: 100%;
+      padding: 1rem !important;
+      transform: .2s;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .custom-accordion > .item {
+        max-width: 100%;
+        -webkit-filter: grayscale(1);
+        filter: grayscale(1);
+        padding: 100px 0;
+    }
+}
+
+@media screen and (min-width: 735px) {
+    .custom-accordion .item:hover{
+      -webkit-transform: scaleX(1) !important;
+       transform: scaleX(1)  !important;
+       border-color: transparent;
+       z-index: 3;
+       -webkit-filter: none;
+       filter: none;
+   }
+}
+
+.custom-accordion .nav-link{
+    background-size: cover ;
+    background-position: center;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+@media screen and (max-width: 767px){
+    .custom-accordion .nav-link{
+       overflow-y: scroll;
+    }
+}
+
+@media screen and (min-width: 992px){
+
+    .custom-accordion .home {
+        background-image:url('../../../../../sites/yaudaface.com/files/2020-09/DSC01694.jpg');
+    }
+
+    .custom-accordion .shea_melt {
+        background-image: url('../../../../../sites/yaudaface.com/files/2020-09/DSC01719_0.jpg');
+    }
+    .custom-accordion .lashes {
+        background-image: url('../../../../../sites/yaudaface.com/files/2020-09/DSC01715_0.jpg');
+    }
+
+    .custom-accordion .sweet_scrub {
+        background-image:url('../../../../../sites/yaudaface.com/files/2020-09/DSC01624.jpg');
+    }
+}
+
+
+@media screen and (min-width: 735px) {
+     .custom-accordion > .item:hover > .title > .text {
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        left: 50%;
+    }
+}
+
+@media screen and (min-width: 735px) {
+    .custom-accordion > .item:hover > .content {
+      opacity: 1;
+    }
+}
+
+.custom-accordion  .title {
+    position: relative;
+    color: var(--black);
+    margin-left:1rem;
+}
+
+@media screen and (min-width: 992px){
+
+    .custom-accordion  .title {
+        position: absolute;
+        bottom: 0;
+        color: var(--white);
+    }
+}
+@media screen and (min-width: 735px) {
+    .custom-accordion > .item > .title {
+      left: 100%;
+      height: 1.5rem;
+      margin-left: 0;
+      text-align: left;
+      -webkit-transform-origin: 0 50%;
+              transform-origin: 0 50%;
+      -webkit-transform: rotate(-90deg);
+              transform: rotate(-90deg);
+      -webkit-transition: all 0.3s cubic-bezier(0.8, 0.16, 0.42, 0.89);
+      transition: all 0.3s cubic-bezier(0.8, 0.16, 0.42, 0.89);
+    }
+}
+
+@media screen and (min-width: 735px) {
+    .custom-accordion > .item > .title > .text {
+      position: absolute;
+      left: 6rem;
+      bottom: 0;
+      white-space: nowrap;
+      -webkit-transition: all 0.3s cubic-bezier(0.8, 0.16, 0.42, 0.89);
+      transition: all 0.3s cubic-bezier(0.8, 0.16, 0.42, 0.89);
+    }
+}
+
+@media screen and (min-width: 735px) {
+    .custom-accordion > .item > .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      height: auto;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+              transform: translateX(-50%) translateY(-50%);
+      -webkit-transition: all 0.3s cubic-bezier(0.8, 0.16, 0.42, 0.89);
+      transition: all 0.3s cubic-bezier(0.8, 0.16, 0.42, 0.89);
+      opacity: 0;
+      padding: 0rem 1rem;
+      pointer-events: none;
+    }
+}
+
+@media screen and (min-width: 735px){
+    .user-logged-in  .custom-accordion > .item > .title > .text {
+           bottom: 25px;
+    }
+}
+
+@media screen and (min-width: 735px){
+
+    .toolbar-tray-open .custom-accordion > .item > .title > .text {
+       left:8rem;
+    }
+}

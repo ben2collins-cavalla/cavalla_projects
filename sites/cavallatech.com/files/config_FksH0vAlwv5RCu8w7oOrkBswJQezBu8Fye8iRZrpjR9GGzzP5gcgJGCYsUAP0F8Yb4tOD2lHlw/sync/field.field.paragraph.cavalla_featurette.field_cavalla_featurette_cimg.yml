@@ -1,0 +1,25 @@
+uuid: 5f8a903a-535d-4f73-a440-2f9f2941b818
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cavalla_featurette_cimg
+    - paragraphs.paragraphs_type.cavalla_featurette
+_core:
+  default_config_hash: w4DVNq9aEDQRVKTisUVQjTksVYxrSensBF-xYlz3GFo
+id: paragraph.cavalla_featurette.field_cavalla_featurette_cimg
+field_name: field_cavalla_featurette_cimg
+entity_type: paragraph
+bundle: cavalla_featurette
+label: 'Circular Image'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

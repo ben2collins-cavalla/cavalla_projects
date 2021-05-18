@@ -1,0 +1,10 @@
+uuid: 0614283b-d45f-4153-a601-3af5c48a2fd7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c9DNwZyJUvH80pRdfRa-5q97flzhBca9w00y-2LAtBU
+name: 'Article Categories'
+vid: cavalla_blog_category
+description: 'Used to categorize Cavalla Blog Post'
+weight: -8

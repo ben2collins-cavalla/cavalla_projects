@@ -1,0 +1,20 @@
+uuid: 27272aef-361e-48a1-88da-8f706eefd922
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 8-Q9iG4TmRwLwcWskdcZs8_iThC9NUe0c1k-ZUa9ijY
+id: node.field_cavalla_photo_album_hide
+field_name: field_cavalla_photo_album_hide
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

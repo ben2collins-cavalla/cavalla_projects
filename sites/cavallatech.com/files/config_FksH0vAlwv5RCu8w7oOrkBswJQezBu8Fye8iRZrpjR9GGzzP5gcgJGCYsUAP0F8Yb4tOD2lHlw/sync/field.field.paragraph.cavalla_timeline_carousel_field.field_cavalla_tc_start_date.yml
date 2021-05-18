@@ -1,0 +1,23 @@
+uuid: b400e78f-3b18-4d0c-b43f-d907835c5a03
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cavalla_tc_start_date
+    - paragraphs.paragraphs_type.cavalla_timeline_carousel_field
+  module:
+    - datetime
+_core:
+  default_config_hash: 2D-2YlzqKqV1MzfLOoIwsiZeu-7YRikC2jz8mtzmSKg
+id: paragraph.cavalla_timeline_carousel_field.field_cavalla_tc_start_date
+field_name: field_cavalla_tc_start_date
+entity_type: paragraph
+bundle: cavalla_timeline_carousel_field
+label: 'Start Date'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

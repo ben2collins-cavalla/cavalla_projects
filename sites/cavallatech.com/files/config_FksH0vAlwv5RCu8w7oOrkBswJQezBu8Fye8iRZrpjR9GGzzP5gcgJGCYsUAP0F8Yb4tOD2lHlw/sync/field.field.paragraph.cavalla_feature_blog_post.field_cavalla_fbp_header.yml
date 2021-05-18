@@ -1,0 +1,21 @@
+uuid: 09addd8c-c2ae-403d-b3a9-6b487b555700
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cavalla_fbp_header
+    - paragraphs.paragraphs_type.cavalla_feature_blog_post
+_core:
+  default_config_hash: KGPRhLP2nPGT-dgaW8a_Oa9Wt1sGnJadWMifrIGbEvA
+id: paragraph.cavalla_feature_blog_post.field_cavalla_fbp_header
+field_name: field_cavalla_fbp_header
+entity_type: paragraph
+bundle: cavalla_feature_blog_post
+label: Header
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

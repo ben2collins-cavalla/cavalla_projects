@@ -1,0 +1,25 @@
+uuid: c399f090-0f41-46b9-98e6-ae93cc29c236
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.cavalla_embed_media_youtube.field_cavalla_em_youtube
+    - paragraphs.paragraphs_type.cavalla_embed_media_youtube
+_core:
+  default_config_hash: fKM3Q-v0tPulKMcrN_jlKqA93xCj-bGxBEEMKD6NaXo
+id: paragraph.cavalla_embed_media_youtube.default
+targetEntityType: paragraph
+bundle: cavalla_embed_media_youtube
+mode: default
+content:
+  field_cavalla_em_youtube:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

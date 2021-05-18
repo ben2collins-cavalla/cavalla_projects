@@ -1,0 +1,21 @@
+uuid: c30175e5-b208-40e2-b80c-7594412773ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cavalla_em_soundcloud_url
+    - paragraphs.paragraphs_type.cavalla_embed_media_soundcloud
+_core:
+  default_config_hash: '-0FLZUfsU8Wk-y20ko064LHWLrbfPxnzpDK36g-xSG8'
+id: paragraph.cavalla_embed_media_soundcloud.field_cavalla_em_soundcloud_url
+field_name: field_cavalla_em_soundcloud_url
+entity_type: paragraph
+bundle: cavalla_embed_media_soundcloud
+label: 'Soundcloud URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,27 @@
+uuid: d05836b8-9923-45b3-825c-d08f1dbc50b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.cavalla_commerce_product_feed.field_cc_product_feed
+    - paragraphs.paragraphs_type.cavalla_commerce_product_feed
+  module:
+    - viewfield
+_core:
+  default_config_hash: xwv21Qs9nOvPTTE213kq8QrCzwRMRJtDURwg8ZC25FY
+id: paragraph.cavalla_commerce_product_feed.default
+targetEntityType: paragraph
+bundle: cavalla_commerce_product_feed
+mode: default
+content:
+  field_cc_product_feed:
+    weight: 0
+    label: above
+    settings:
+      view_title: hidden
+      always_build_output: false
+      empty_view_title: hidden
+    third_party_settings: {  }
+    type: viewfield_default
+    region: content
+hidden: {  }

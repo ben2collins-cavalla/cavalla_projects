@@ -1,0 +1,21 @@
+uuid: 33b24ab3-6c7e-45db-b74a-ec7e1d895ce5
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - telephone
+_core:
+  default_config_hash: Dqec4LCMha9iNA-3-gyr4Aaxo5h0jFVbMTuYwyhh8Z4
+id: paragraph.field_cavalla_wf_telephone
+field_name: field_cavalla_wf_telephone
+entity_type: paragraph
+type: telephone
+settings: {  }
+module: telephone
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

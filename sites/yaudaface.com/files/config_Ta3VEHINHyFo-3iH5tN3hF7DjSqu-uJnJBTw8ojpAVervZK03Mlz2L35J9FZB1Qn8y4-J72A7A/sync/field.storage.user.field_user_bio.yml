@@ -1,0 +1,21 @@
+uuid: f62e2ff9-92f5-4137-9317-f14e32ecb0df
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: SsmEGwkRDpZRHbfS79OS8_OYCZGZ7OTgb4cw7OAOgYg
+id: user.field_user_bio
+field_name: field_user_bio
+entity_type: user
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

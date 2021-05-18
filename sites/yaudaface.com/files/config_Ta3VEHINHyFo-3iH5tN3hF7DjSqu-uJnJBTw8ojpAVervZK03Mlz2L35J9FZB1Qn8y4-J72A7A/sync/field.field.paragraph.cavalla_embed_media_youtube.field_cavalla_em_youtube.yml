@@ -1,0 +1,21 @@
+uuid: 7d02abf8-1679-4ff7-bdf1-f1009bff2f75
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cavalla_em_youtube
+    - paragraphs.paragraphs_type.cavalla_embed_media_youtube
+_core:
+  default_config_hash: jPb-x-3MGDWYr1zk_SLeoz2qHyzkWJWzHYTjMInndbQ
+id: paragraph.cavalla_embed_media_youtube.field_cavalla_em_youtube
+field_name: field_cavalla_em_youtube
+entity_type: paragraph
+bundle: cavalla_embed_media_youtube
+label: 'Embed Youtube'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

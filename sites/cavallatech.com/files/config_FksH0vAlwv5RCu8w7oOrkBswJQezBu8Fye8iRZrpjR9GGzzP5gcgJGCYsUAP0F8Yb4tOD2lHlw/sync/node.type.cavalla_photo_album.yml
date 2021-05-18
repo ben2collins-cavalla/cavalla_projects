@@ -1,0 +1,20 @@
+uuid: b3800fec-e102-429d-b5ca-42f97f14568d
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: '-w2Id_swK0tyaaAw8ksRJ5CF1bZ1OiUszGQLOOiFL2M'
+name: 'Cavalla Photo Album'
+type: cavalla_photo_album
+description: "Use Cavalla Photo Album to create photo albums.\t\r\n"
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

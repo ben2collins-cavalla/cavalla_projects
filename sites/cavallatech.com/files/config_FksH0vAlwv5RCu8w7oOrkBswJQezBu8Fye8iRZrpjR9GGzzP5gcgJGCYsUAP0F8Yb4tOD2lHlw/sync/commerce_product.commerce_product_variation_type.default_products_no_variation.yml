@@ -1,0 +1,12 @@
+uuid: 30370614-36e3-441c-af88-5665854c36fd
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: QVVIqepfWkQK_JiJPaErHAEZU7vEHb66NDh08BFPzNQ
+id: default_products_no_variation
+label: 'Default Products - No Variation'
+orderItemType: default
+generateTitle: true
+traits: {  }
+locked: false

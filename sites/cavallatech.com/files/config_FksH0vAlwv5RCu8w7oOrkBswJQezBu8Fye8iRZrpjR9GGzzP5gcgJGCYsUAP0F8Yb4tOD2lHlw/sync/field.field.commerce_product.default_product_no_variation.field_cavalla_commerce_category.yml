@@ -1,0 +1,31 @@
+uuid: b024e91e-e807-4e2e-92c5-083933d456cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.default_product_no_variation
+    - field.storage.commerce_product.field_cavalla_commerce_category
+    - taxonomy.vocabulary.cavalla_commerce
+_core:
+  default_config_hash: 7RRiDfVMZcrnaemsHxvlvBsnTOHu76oHvnfKvTU5JMY
+id: commerce_product.default_product_no_variation.field_cavalla_commerce_category
+field_name: field_cavalla_commerce_category
+entity_type: commerce_product
+bundle: default_product_no_variation
+label: Category
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      cavalla_commerce: cavalla_commerce
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

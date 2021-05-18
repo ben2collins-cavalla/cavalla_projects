@@ -1,0 +1,20 @@
+uuid: d5421dc2-50d5-4987-9e15-c00ad78ebe0c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: FKvcxR2TICcW9NOca7uKIJvLbxVAptsgCux6Ejnbh3A
+id: node.field_cavalla_bp_hero_image_hide
+field_name: field_cavalla_bp_hero_image_hide
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: 7ce9d04c-0677-4acf-ad8a-f4912e5ff14c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cavalla_blog_feed_clo
+    - paragraphs.paragraphs_type.cavalla_blog_feeds
+  module:
+    - options
+_core:
+  default_config_hash: 0mYmZp3v_33QPftj8azLMW5y8y8nz8ldzWyVQSfmwhQ
+id: paragraph.cavalla_blog_feeds.field_cavalla_blog_feed_clo
+field_name: field_cavalla_blog_feed_clo
+entity_type: paragraph
+bundle: cavalla_blog_feeds
+label: 'Link Options'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

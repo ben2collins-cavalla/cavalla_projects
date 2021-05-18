@@ -1,0 +1,332 @@
+uuid: null
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.cavalla_homepage.field_cavalla_bp_introduction
+    - field.field.node.cavalla_homepage.field_cavalla_hp_employment
+    - field.field.node.cavalla_homepage.field_cavalla_hp_project_embed
+    - field.field.node.cavalla_homepage.field_cavalla_hp_project_feed
+    - field.field.node.cavalla_homepage.field_cavalla_hp_skillsets
+    - field.field.node.cavalla_homepage.field_cavalla_hp_testimony
+    - field.field.node.cavalla_homepage.field_cavalla_hp_widget_contact
+    - field.field.node.cavalla_homepage.field_cavalla_hp_widget_intro
+    - node.type.cavalla_homepage
+  module:
+    - field_group
+    - paragraphs
+    - path
+third_party_settings:
+  field_group:
+    group_field_cavalla_bp_introduct:
+      children:
+        - field_cavalla_bp_introduction
+      parent_name: ''
+      weight: 1
+      format_type: details
+      format_settings:
+        description: ''
+        required_fields: true
+        id: ''
+        classes: ''
+        open: false
+      label: 'Meta Description'
+      region: content
+    group_cavalla_hp_intro:
+      children:
+        - field_cavalla_hp_widget_intro
+      parent_name: ''
+      weight: 2
+      format_type: details
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        open: false
+        required_fields: true
+      label: Introduction
+    group_cavalla_hp_projects:
+      children:
+        - field_cavalla_hp_project_feed
+        - field_cavalla_hp_project_embed
+      parent_name: ''
+      weight: 3
+      format_type: details
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        open: false
+        required_fields: true
+      label: Projects
+    group_cavalla_hp_widget_contact:
+      children:
+        - field_cavalla_hp_widget_contact
+      parent_name: ''
+      weight: 6
+      format_type: details
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        open: false
+        required_fields: true
+      label: Contact
+    group_cavalla_hp_employment:
+      children:
+        - field_cavalla_hp_employment
+      parent_name: ''
+      weight: 4
+      format_type: details
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        open: false
+        required_fields: true
+      label: Employment
+    group_cavalla_hp_s:
+      children:
+        - field_cavalla_hp_skillsets
+      parent_name: ''
+      weight: 5
+      format_type: details
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        open: false
+        required_fields: true
+      label: Skillsets
+    group_cavalla_hp_testimony:
+      children:
+        - field_cavalla_hp_testimony
+      parent_name: ''
+      weight: 13
+      format_type: details
+      region: hidden
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        open: false
+        required_fields: true
+      label: 'Client Testimony'
+id: node.cavalla_homepage.default
+targetEntityType: node
+bundle: cavalla_homepage
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 8
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_cavalla_bp_hero_image:
+    weight: 122
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_cavalla_bp_hero_image_hide:
+    weight: 123
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_cavalla_bp_introduction:
+    weight: 10
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_cavalla_bp_widgets:
+    type: entity_reference_paragraphs
+    weight: 124
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+    region: content
+  field_cavalla_hp_employment:
+    type: entity_reference_paragraphs
+    weight: 14
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_cavalla_hp_project_embed:
+    type: entity_reference_paragraphs
+    weight: 132
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_cavalla_hp_project_feed:
+    type: entity_reference_paragraphs
+    weight: 131
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_cavalla_hp_services:
+    type: entity_reference_paragraphs
+    weight: 126
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_cavalla_hp_skillsets:
+    type: entity_reference_paragraphs
+    weight: 4
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_cavalla_hp_widget_about:
+    type: entity_reference_paragraphs
+    weight: 6
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_cavalla_hp_widget_contact:
+    type: entity_reference_paragraphs
+    weight: 13
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_cavalla_hp_widget_intro:
+    type: entity_reference_paragraphs
+    weight: 129
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_cavalla_hp_widget_project:
+    type: entity_reference_paragraphs
+    weight: 133
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_cavalla_hp_widget_service:
+    type: entity_reference_paragraphs
+    weight: 128
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  path:
+    type: path
+    weight: 11
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 9
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 12
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 10
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 7
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+hidden:
+  field_cavalla_hp_testimony: true

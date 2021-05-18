@@ -1,0 +1,25 @@
+uuid: d4177d1e-e525-4bd7-8a3b-0052b241f922
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cavalla_blog_hero_img_hide
+    - node.type.cavalla_blog
+_core:
+  default_config_hash: lF4VBDIpOYEfFtp8h2QZBBRoM9WaKHmrdF09no6MjHk
+id: node.cavalla_blog.field_cavalla_blog_hero_img_hide
+field_name: field_cavalla_blog_hero_img_hide
+entity_type: node
+bundle: cavalla_blog
+label: 'Hide Hero Image'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

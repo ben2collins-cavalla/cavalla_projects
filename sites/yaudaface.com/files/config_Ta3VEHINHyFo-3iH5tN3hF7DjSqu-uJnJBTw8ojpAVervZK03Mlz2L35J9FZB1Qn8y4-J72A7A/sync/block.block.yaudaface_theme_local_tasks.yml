@@ -1,0 +1,22 @@
+uuid: fa5c11af-3c80-4a1f-94c9-4e673b2538b6
+langcode: en
+status: true
+dependencies:
+  theme:
+    - yaudaface_theme
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: yaudaface_theme_local_tasks
+theme: yaudaface_theme
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

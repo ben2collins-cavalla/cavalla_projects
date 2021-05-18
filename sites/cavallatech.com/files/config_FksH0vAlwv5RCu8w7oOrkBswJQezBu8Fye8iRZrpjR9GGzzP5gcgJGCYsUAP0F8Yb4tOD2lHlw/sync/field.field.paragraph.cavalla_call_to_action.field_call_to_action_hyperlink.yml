@@ -1,0 +1,25 @@
+uuid: 71b88f43-2cb3-47d3-8100-7e39001348ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_call_to_action_hyperlink
+    - paragraphs.paragraphs_type.cavalla_call_to_action
+  module:
+    - link
+_core:
+  default_config_hash: a3LhyZa9meGrHdiw3umJKUrSSNJLDUKSOCH611DVqRw
+id: paragraph.cavalla_call_to_action.field_call_to_action_hyperlink
+field_name: field_call_to_action_hyperlink
+entity_type: paragraph
+bundle: cavalla_call_to_action
+label: Hyperlink(s)
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

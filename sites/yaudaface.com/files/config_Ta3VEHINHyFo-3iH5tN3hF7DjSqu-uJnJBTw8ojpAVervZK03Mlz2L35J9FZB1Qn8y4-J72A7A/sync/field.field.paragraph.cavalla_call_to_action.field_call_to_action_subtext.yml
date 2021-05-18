@@ -1,0 +1,21 @@
+uuid: aed78c42-c6fc-448e-842d-c14b8609eafa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_call_to_action_subtext
+    - paragraphs.paragraphs_type.cavalla_call_to_action
+_core:
+  default_config_hash: 7nX69vG6AuOPleZlRQQ1ztYX8i8_ICTdzzOtO6BXt8c
+id: paragraph.cavalla_call_to_action.field_call_to_action_subtext
+field_name: field_call_to_action_subtext
+entity_type: paragraph
+bundle: cavalla_call_to_action
+label: Subtext
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,12 @@
+uuid: 05b51495-a711-40f4-b569-369cc4996936
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Q8EEbEEGwI71Ugh68XVvoqWT9koKeGdXOS6tKoti57g
+id: cavalla_card_field
+label: 'Cavalla Cards - Individual Cards'
+icon_uuid: null
+icon_default: null
+description: 'Individual Cards used within the Cavalla Cards Bundle'
+behavior_plugins: {  }

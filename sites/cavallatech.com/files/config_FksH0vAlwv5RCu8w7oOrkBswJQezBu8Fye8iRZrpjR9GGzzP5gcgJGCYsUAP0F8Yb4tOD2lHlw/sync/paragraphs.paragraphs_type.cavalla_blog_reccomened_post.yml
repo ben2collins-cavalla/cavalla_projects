@@ -1,0 +1,12 @@
+uuid: 3ddb46bb-d2f8-4f32-95fa-12b522feb95c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: BBOnvczKxN3MrR1rOaq9SmDa7SbjmsL0FIrds5Rpk10
+id: cavalla_blog_reccomened_post
+label: 'Reccomened Post'
+icon_uuid: null
+icon_default: null
+description: "A widget for displaying a list of recommended blog post\t\r\n"
+behavior_plugins: {  }

@@ -1,0 +1,22 @@
+uuid: d864aced-c3d4-4ad6-8b75-7821d79c7f47
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - taxonomy
+_core:
+  default_config_hash: IfzWcCLLleh9z1gWJGnMcskHtkNbj9mAsprrLm9mLNY
+id: paragraph.field_cavalla_pf_category
+field_name: field_cavalla_pf_category
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

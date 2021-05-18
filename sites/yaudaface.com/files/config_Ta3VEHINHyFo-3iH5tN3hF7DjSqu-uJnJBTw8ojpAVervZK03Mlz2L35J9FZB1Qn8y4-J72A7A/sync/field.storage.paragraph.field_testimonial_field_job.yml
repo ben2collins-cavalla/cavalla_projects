@@ -1,0 +1,23 @@
+uuid: 3b13801a-2afd-4e8f-8bd3-d39bb0674f6a
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: N6eqCvGDg0O9YAaWqBTgbpQ0XMpO59SB62y1gS5NEWY
+id: paragraph.field_testimonial_field_job
+field_name: field_testimonial_field_job
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

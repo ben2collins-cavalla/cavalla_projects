@@ -1,0 +1,78 @@
+uuid: 49b990f7-b9a7-4308-95f9-dbedb33fd4a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.cavalla_photos.field_cavalla_photos_images
+    - field.field.paragraph.cavalla_photos.field_cavalla_photos_text
+    - field.field.paragraph.cavalla_photos.field_cavalla_photos_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.cavalla_photos
+  module:
+    - field_group
+    - image
+third_party_settings:
+  field_group:
+    group_ca:
+      children:
+        - field_cavalla_photos_images
+      parent_name: ''
+      weight: 2
+      format_type: details
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        open: false
+        required_fields: true
+      label: Photos
+    group_cavalla_photos_intro:
+      children:
+        - field_cavalla_photos_title
+        - field_cavalla_photos_text
+      parent_name: ''
+      weight: 0
+      format_type: details
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        open: false
+        required_fields: true
+      label: Introduction
+_core:
+  default_config_hash: wTC5lXizw3lK1LsGV1tMnnKrQZ9LI2A7705SLFIFOjQ
+id: paragraph.cavalla_photos.default
+targetEntityType: paragraph
+bundle: cavalla_photos
+mode: default
+content:
+  field_cavalla_photos_images:
+    weight: 2
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_cavalla_photos_text:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_cavalla_photos_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

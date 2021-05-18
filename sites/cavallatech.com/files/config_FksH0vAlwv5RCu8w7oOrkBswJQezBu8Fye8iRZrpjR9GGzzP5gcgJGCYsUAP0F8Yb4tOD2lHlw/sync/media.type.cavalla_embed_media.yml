@@ -1,0 +1,17 @@
+uuid: 5ccb3907-b529-413b-a8d5-7d6642951eb6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: QpU5z1ipA8r3uiRdpwahi_VCdPKbuAf-A2MGmlGadYo
+id: cavalla_embed_media
+label: 'Cavalla Embed Media'
+description: "A remotely hosted video.\t\r\n"
+source: 'oembed:video'
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  thumbnails_directory: 'public://oembed_thumbnails'
+  providers: {  }
+  source_field: field_media_oembed_video_1
+field_map: {  }

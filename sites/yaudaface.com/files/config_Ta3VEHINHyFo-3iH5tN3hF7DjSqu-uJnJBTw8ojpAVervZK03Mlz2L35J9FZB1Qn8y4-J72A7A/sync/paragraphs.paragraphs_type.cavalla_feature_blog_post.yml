@@ -1,0 +1,12 @@
+uuid: 51f30099-42c7-4133-a247-0c49122a2fc8
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: r-fKQXQ0wy6NVEMplBXbWu6iWXLiYlpFC37gfc1t4fI
+id: cavalla_feature_blog_post
+label: 'Feature Blog Post'
+icon_uuid: null
+icon_default: null
+description: 'Use Cavalla Feature Blog Post to display feature Blog Post.'
+behavior_plugins: {  }

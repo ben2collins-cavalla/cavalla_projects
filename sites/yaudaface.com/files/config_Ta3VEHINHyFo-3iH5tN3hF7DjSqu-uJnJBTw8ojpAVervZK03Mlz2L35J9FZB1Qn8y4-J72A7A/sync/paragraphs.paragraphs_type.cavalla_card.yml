@@ -1,0 +1,12 @@
+uuid: 99e0f0d6-07d2-4600-923d-dbfb80c2bbd3
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: OCc3jn-KHRcROvqHEpWOX88ofGUNiSQVnM5teTjfUek
+id: cavalla_card
+label: Cards
+icon_uuid: null
+icon_default: null
+description: 'Bootstrap Card Widget for the Cavalla Theme'
+behavior_plugins: {  }

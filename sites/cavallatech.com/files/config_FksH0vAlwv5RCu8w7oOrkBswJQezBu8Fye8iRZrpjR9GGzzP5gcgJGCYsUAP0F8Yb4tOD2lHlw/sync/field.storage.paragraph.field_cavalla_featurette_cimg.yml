@@ -1,0 +1,20 @@
+uuid: 81e1e13d-eb9d-4d47-b494-86a58b08b7de
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: wPd6iKQIK-VbgueW8P2pAATwJMEq4cD_qvGhT_OamDk
+id: paragraph.field_cavalla_featurette_cimg
+field_name: field_cavalla_featurette_cimg
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

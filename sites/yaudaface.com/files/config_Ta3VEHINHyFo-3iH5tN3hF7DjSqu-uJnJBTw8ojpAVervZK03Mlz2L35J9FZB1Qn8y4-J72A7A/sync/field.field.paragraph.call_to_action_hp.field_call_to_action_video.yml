@@ -1,0 +1,32 @@
+uuid: 07332bd4-833b-4b0c-9fde-8b6991d3e37d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_call_to_action_video
+    - media.type.remote_video
+    - media.type.video
+    - paragraphs.paragraphs_type.call_to_action_hp
+_core:
+  default_config_hash: rAkbO3LPuzQ9Q1Cc00q4G49D4SXByvIIsVvbAeJbW5Q
+id: paragraph.call_to_action_hp.field_call_to_action_video
+field_name: field_call_to_action_video
+entity_type: paragraph
+bundle: call_to_action_hp
+label: Video
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      remote_video: remote_video
+      video: video
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: remote_video
+field_type: entity_reference
